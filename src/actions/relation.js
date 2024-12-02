@@ -38,20 +38,20 @@ const messages = defineMessages({
     id: 'action.relation.related',
     description: 'Notification message displayed when records are related successfully.',
     defaultMessage: `{objectCount, plural,
-      =0 {No records}
-      one {# record}
-      other {# records}
-    } related to {subjectTitle}.`,
+      =0 {Nenhum registro}
+      one {# registro}
+      other {# registros}
+    } relacionados a {subjectTitle}.`,
   },
   batchCreateError: {
     id: 'action.relation.batchCreateError',
     description: 'Message shown when relating multiple records fails.',
-    defaultMessage: 'Some records could not be related: {error}',
+    defaultMessage: 'Alguns registros não puderam ser relacionados: {error}',
   },
   batchUnrelateError: {
     id: 'action.relation.batchUnrelateError',
     description: 'Message shown when unrelating multiple records fails.',
-    defaultMessage: 'Some records could not be unrelated: {error}',
+    defaultMessage: 'Alguns registros não puderam ser desvinculados: {error}',
   },
 });
 

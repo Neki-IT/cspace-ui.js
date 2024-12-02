@@ -11,12 +11,12 @@ const messages = defineMessages({
   title: {
     id: 'dashboardPage.title',
     description: 'Title of the dashboard page.',
-    defaultMessage: 'My CollectionSpace',
+    defaultMessage: 'Minha CollectionSpace',
   },
   recentPanelTitle: {
     id: 'dashboardPage.recentPanelTitle',
     description: 'Title of the recent records panel on the dashboard page.',
-    defaultMessage: 'Records Updated in Last 7 Days',
+    defaultMessage: 'Registros Atualizados nos Últimos 7 Dias',
   },
 });
 

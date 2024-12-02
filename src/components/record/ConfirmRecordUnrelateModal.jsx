@@ -11,25 +11,25 @@ const messages = defineMessages({
   title: {
     id: 'confirmRecordUnrelateModal.title',
     description: 'Title of the modal shown to confirm unrelating a record.',
-    defaultMessage: 'Unrelate {recordName}',
+    defaultMessage: 'Desvincular {recordName}',
   },
   prompt: {
     id: 'confirmRecordUnrelateModal.prompt',
     description: 'The prompt shown to confirm unrelating a record.',
-    defaultMessage: 'Unrelate {title} from the primary record?',
+    defaultMessage: 'Desvincular {title} do registro principal?',
   },
   promptMultiple: {
     id: 'confirmRecordUnrelateModal.promptMultiple',
     description: 'The prompt shown to confirm unrelating multiple selected records.',
-    defaultMessage: `Unrelate {recordCount, plural,
-      one {the selected record}
-      other {# selected records}
-    } from the primary record?`,
+    defaultMessage: `Desvincular {recordCount, plural,
+      one {o registro selecionado}
+      other {# registros selecionados}
+    } do registro principal?`,
   },
   unrelating: {
     id: 'confirmRecordUnrelateModal.unrelating',
     description: 'The message displayed in the unrelate modal when unrelating is in progress.',
-    defaultMessage: 'Unrelating...',
+    defaultMessage: 'Desvinculando...',
   },
 });
 

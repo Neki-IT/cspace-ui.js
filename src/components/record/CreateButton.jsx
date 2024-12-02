@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'createButton.label',
     description: 'Label of the create button.',
-    defaultMessage: 'Create new',
+    defaultMessage: 'Criar novo',
   },
 });
 

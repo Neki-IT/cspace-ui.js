@@ -20,7 +20,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.person.default.termDisplayName',
-            defaultMessage: 'Display name',
+            defaultMessage: 'Nome de Exibição',
           },
         }),
         order: 20,
@@ -31,7 +31,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.person.default.surName',
-            defaultMessage: 'Surname',
+            defaultMessage: 'Sobrenome',
           },
         }),
         order: 30,
@@ -42,7 +42,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.person.default.foreName',
-            defaultMessage: 'Forename',
+            defaultMessage: 'Primeiro Nome',
           },
         }),
         order: 40,
@@ -55,7 +55,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.person.default.vocabulary',
-            defaultMessage: 'Vocabulary',
+            defaultMessage: 'Vocabulário',
           },
         }),
         order: 50,
@@ -66,7 +66,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.object.search.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 60,

@@ -6,15 +6,15 @@ const messages = defineMessages({
   title: {
     id: 'about.title',
     description: 'Title of the about page.',
-    defaultMessage: 'Welcome to CollectionSpace',
+    defaultMessage: 'Bem-vindo ao CollectionSpace',
   },
   contentHTML: {
     id: 'about.contentHTML',
     description: 'Content of the about page. This message is interpreted as HTML, so HTML rules apply. For example, newlines are ignored, and <, >, and & must be escaped.',
     defaultMessage: `
       <p>
-        CollectionSpace is a community-supported collections management application for museums,
-        historical societies, natural science collections, and more.
+        CollectionSpace é um aplicativo de gestão de coleções suportado pela comunidade para museus, 
+        sociedades históricas, coleções de ciências naturais e outros.
       </p>
     `,
   },

@@ -13,7 +13,7 @@ import styles from '../../../styles/cspace-ui/AdminPage.css';
 const messages = defineMessages({
   title: {
     id: 'adminPage.title',
-    defaultMessage: 'Administration',
+    defaultMessage: 'Administração',
   },
 });
 

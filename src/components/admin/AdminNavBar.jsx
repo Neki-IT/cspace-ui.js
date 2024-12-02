@@ -8,11 +8,11 @@ import itemStyles from '../../../styles/cspace-ui/AdminNavItem.css';
 const messages = defineMessages({
   account: {
     id: 'adminNavBar.account',
-    defaultMessage: 'Users',
+    defaultMessage: 'Usuários',
   },
   authrole: {
     id: 'adminNavBar.authrole',
-    defaultMessage: 'Roles and Permissions',
+    defaultMessage: 'Papéis e Permissões',
   },
 });
 

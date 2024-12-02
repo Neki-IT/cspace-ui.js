@@ -11,7 +11,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.audit.default.updatedBy',
-            defaultMessage: 'By',
+            defaultMessage: 'Por',
           },
         }),
         order: 10,
@@ -22,7 +22,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.audit.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

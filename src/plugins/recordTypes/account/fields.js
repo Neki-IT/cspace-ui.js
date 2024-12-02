@@ -43,7 +43,7 @@ export default (configContext) => {
           errorNotConfirmed: {
             id: 'field.accounts_common.errorNotConfirmed',
             description: 'Message to display when the password confirmation does not match the password on a user account record.',
-            defaultMessage: 'Password and confirm password must be identical.',
+            defaultMessage: 'A senha e a confirmação da senha devem ser idênticas.',
           },
         }),
         service: {
@@ -97,7 +97,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.accounts_common.screenName.name',
-              defaultMessage: 'Full name',
+              defaultMessage: 'Nome completo',
             },
           }),
           required: true,
@@ -118,11 +118,11 @@ export default (configContext) => {
             errorInvalidEmail: {
               id: 'field.accounts_common.email.errorInvalidEmail',
               description: 'Message to display when the email is invalid on the user account form.',
-              defaultMessage: 'Email is not a valid address. Correct the value {value}.',
+              defaultMessage: 'O email não é um endereço válido. Corrija o valor {value}.',
             },
             name: {
               id: 'field.accounts_common.email.name',
-              defaultMessage: 'Email address',
+              defaultMessage: 'Endereço de email',
             },
           }),
           required: true,
@@ -173,11 +173,11 @@ export default (configContext) => {
             errorInvalidPassword: {
               id: 'field.accounts_common.password.errorInvalidPassword',
               description: 'Message to display when the password is invalid on the user account form.',
-              defaultMessage: 'Password must be between 8 and 24 characters.',
+              defaultMessage: 'A senha deve ter entre 8 e 24 caracteres.',
             },
             name: {
               id: 'field.accounts_common.password.name',
-              defaultMessage: 'Password',
+              defaultMessage: 'Senha',
             },
           }),
           required: ({ recordData }) => (
@@ -209,7 +209,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.accounts_common.passwordConfirmation.name',
-              defaultMessage: 'Confirm password',
+              defaultMessage: 'Confirmar senha',
             },
           }),
           required: ({ recordData }) => (
@@ -260,7 +260,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.accounts_common.userId.name',
-              defaultMessage: 'User ID',
+              defaultMessage: 'ID de Usuário',
             },
           }),
           view: {
@@ -283,7 +283,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.account.role.name',
-                defaultMessage: 'Roles',
+                defaultMessage: 'Papéis',
               },
             }),
             view: {

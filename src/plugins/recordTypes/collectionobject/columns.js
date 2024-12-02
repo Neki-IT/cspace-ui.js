@@ -11,7 +11,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.collectionobject.default.objectNumber',
-            defaultMessage: 'Identification number',
+            defaultMessage: 'Número de Identificação',
           },
         }),
         order: 10,
@@ -22,7 +22,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.collectionobject.default.title',
-            defaultMessage: 'Title',
+            defaultMessage: 'Título',
           },
         }),
         order: 20,
@@ -34,7 +34,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.collectionobject.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,
@@ -58,7 +58,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.collectionobject.narrow.title',
-            defaultMessage: 'Title',
+            defaultMessage: 'Título',
           },
         }),
         order: 20,
@@ -69,7 +69,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.collectionobject.narrow.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

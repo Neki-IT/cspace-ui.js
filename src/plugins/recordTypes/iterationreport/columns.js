@@ -11,7 +11,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.iterationreport.default.iterationIdentificationNumber',
-            defaultMessage: 'Identification number',
+            defaultMessage: 'Número de Identificação da Iteração',
           },
         }),
         order: 10,
@@ -23,7 +23,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.iterationreport.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

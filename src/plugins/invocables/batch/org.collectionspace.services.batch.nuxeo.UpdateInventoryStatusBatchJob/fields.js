@@ -22,7 +22,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.batch.UpdateInventoryStatusBatchJob.inventoryStatus.name',
-              defaultMessage: 'New inventory status',
+              defaultMessage: 'Novo Status do Inventário',
             },
           }),
           repeating: true,

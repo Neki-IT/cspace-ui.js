@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'deleteButton.label',
     description: 'Label of the delete button.',
-    defaultMessage: 'Delete',
+    defaultMessage: 'Excluir',
   },
 });
 

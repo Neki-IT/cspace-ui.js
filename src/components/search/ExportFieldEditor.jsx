@@ -31,7 +31,7 @@ const messages = defineMessages({
   prompt: {
     id: 'exportFieldEditor.prompt',
     description: 'Prompt message in the field editor for exports.',
-    defaultMessage: 'Select fields to include.',
+    defaultMessage: 'Selecione os campos a serem incluídos.',
   },
 });
 

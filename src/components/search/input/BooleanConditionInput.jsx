@@ -45,51 +45,51 @@ const messages = {
   [OP_AND]: defineMessages({
     label: {
       id: 'booleanConditionInput.and.label',
-      defaultMessage: 'and',
+      defaultMessage: 'e',
     },
     opSelectorLabel: {
       id: 'booleanConditionInput.and.opSelectorLabel',
-      defaultMessage: 'All',
+      defaultMessage: 'Todas',
     },
   }),
   [OP_OR]: defineMessages({
     label: {
       id: 'booleanConditionInput.or.label',
-      defaultMessage: 'or',
+      defaultMessage: 'ou',
     },
     opSelectorLabel: {
       id: 'booleanConditionInput.or.opSelectorLabel',
-      defaultMessage: 'Any',
+      defaultMessage: 'Qualquer',
     },
   }),
   opSelector: defineMessages({
     label: {
       id: 'booleanConditionInput.opSelector.label',
-      defaultMessage: `{opSelectorInput} of the following conditions { operator, select,
-        and {must}
-        or {may}
-      } be satisfied:`,
+      defaultMessage: `{opSelectorInput} das condições seguintes {operator, select,
+        and {devem}
+        or {podem}}
+        ser satisfeitas:`,
     },
   }),
   addBoolean: defineMessages({
     label: {
       id: 'booleanConditionInput.addBoolean.label',
       description: 'Label of the button to add a new boolean constraint to a boolean search',
-      defaultMessage: '+ Any/All',
+      defaultMessage: '+ Qualquer/Todas',
     },
   }),
   addField: defineMessages({
     label: {
       id: 'booleanConditionInput.addField.label',
       description: 'Label of the button to add a new field constraint to a boolean search',
-      defaultMessage: '+ Field',
+      defaultMessage: '+ Campo',
     },
   }),
   addGroup: defineMessages({
     label: {
       id: 'booleanConditionInput.addGroup.label',
       description: 'Label of the button to add a new group constraint to a boolean search',
-      defaultMessage: '+ Group',
+      defaultMessage: '+ Grupo',
     },
   }),
 };

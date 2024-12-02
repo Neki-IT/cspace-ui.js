@@ -32,30 +32,30 @@ const messages = defineMessages({
     id: 'autocompleteInputContainer.count',
     description: 'Message displayed in the autocomplete input dropdown when filtering options.',
     defaultMessage: `{count, plural,
-        =0 {No matching terms}
-        one {# matching term}
-        other {# matching terms}
-    } found`,
+      =0 {Nenhum termo correspondente}
+      one {# termo correspondente}
+      other {# termos correspondentes}
+    } encontrados`,
   },
   moreCharsRequired: {
     id: 'autocompleteInputContainer.moreCharsRequired',
     description: 'Message displayed in the autocomplete input dropdown when more characters must be typed in order to begin matching.',
-    defaultMessage: 'Continue typing to find matching terms',
+    defaultMessage: 'Continue digitando para encontrar termos correspondentes',
   },
   addPrompt: {
     id: 'autocompleteInputContainer.addPrompt',
     description: 'Message displayed in the autocomplete input dropdown to prompt a user to add a new term.',
-    defaultMessage: 'Add "{displayName}" to {destinationName}',
+    defaultMessage: 'Adicionar "{displayName}" a {destinationName}',
   },
   cloneOptionLabel: {
     id: 'autocompleteInputContainer.cloneOptionLabel',
     description: 'Label of the clone option shown in the autocomplete input dropdown.',
-    defaultMessage: 'Clone current record',
+    defaultMessage: 'Clonar registro atual',
   },
   createNewOptionLabel: {
     id: 'autocompleteInputContainer.createNewOptionLabel',
     description: 'Label of the create new option shown in the autocomplete input dropdown.',
-    defaultMessage: 'Create new record',
+    defaultMessage: 'Criar novo registro',
   },
 });
 

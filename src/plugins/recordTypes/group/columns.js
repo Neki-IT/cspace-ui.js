@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.group.default.title',
-            defaultMessage: 'Title',
+            defaultMessage: 'Título',
           },
         }),
         order: 10,
@@ -23,7 +23,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.group.default.owner',
-            defaultMessage: 'Owner',
+            defaultMessage: 'Proprietário',
           },
         }),
         formatValue: formatRefName,
@@ -35,7 +35,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.group.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         formatValue: formatTimestamp,

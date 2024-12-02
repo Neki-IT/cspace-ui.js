@@ -26,21 +26,21 @@ const messages = defineMessages({
   running: {
     id: 'batch.running',
     description: 'Notification message shown when a batch job is running.',
-    defaultMessage: 'Running {name}…',
+    defaultMessage: 'Executando {name}…',
   },
   complete: {
     id: 'batch.complete',
     description: 'Notification message shown when a batch job has completed.',
-    defaultMessage: `Completed {name}: {numAffected, plural,
-      =0 {No records}
-      one {# record}
-      other {# records}
-    } affected. {userNote}`,
+    defaultMessage: `Concluído {name}: {numAffected, plural,
+      =0 {Nenhum registro}
+      one {# registro}
+      other {# registros}
+    } afetados. {userNote}`,
   },
   error: {
     id: 'batch.error',
     description: 'Notification message shown when a batch job fails.',
-    defaultMessage: 'Error running {name}: {error}',
+    defaultMessage: 'Erro ao executar {name}: {error}',
   },
 });
 

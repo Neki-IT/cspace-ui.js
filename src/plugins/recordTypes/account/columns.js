@@ -11,7 +11,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.account.default.screenName',
-            defaultMessage: 'Full Name',
+            defaultMessage: 'Nome Completo',
           },
         }),
         order: 10,

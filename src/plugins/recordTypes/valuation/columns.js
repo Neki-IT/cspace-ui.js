@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.valuation.default.valuationcontrolRefNumber',
-            defaultMessage: 'Reference number',
+            defaultMessage: 'Número de Referência do Controle de Avaliação',
           },
         }),
         order: 10,
@@ -24,7 +24,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.valuation.default.valueType',
-            defaultMessage: 'Type',
+            defaultMessage: 'Tipo',
           },
         }),
         order: 20,
@@ -36,7 +36,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.valuation.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

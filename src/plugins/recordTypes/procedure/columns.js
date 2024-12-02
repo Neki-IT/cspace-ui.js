@@ -24,7 +24,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.docNumber',
-            defaultMessage: 'Record',
+            defaultMessage: 'Registro',
           },
         }),
         order: 20,
@@ -37,7 +37,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.docName',
-            defaultMessage: 'Summary',
+            defaultMessage: 'Resumo',
           },
         }),
         order: 30,
@@ -48,7 +48,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.docType',
-            defaultMessage: 'Type',
+            defaultMessage: 'Tipo',
           },
         }),
         order: 40,
@@ -59,7 +59,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 50,
@@ -77,7 +77,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.docNumber',
-            defaultMessage: 'Record',
+            defaultMessage: 'Registro',
           },
         }),
         order: 10,
@@ -90,7 +90,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.docName',
-            defaultMessage: 'Summary',
+            defaultMessage: 'Resumo',
           },
         }),
         order: 20,
@@ -101,7 +101,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.docType',
-            defaultMessage: 'Type',
+            defaultMessage: 'Tipo',
           },
         }),
         order: 30,
@@ -112,7 +112,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.procedure.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 40,

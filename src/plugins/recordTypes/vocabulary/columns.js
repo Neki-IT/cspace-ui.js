@@ -6,7 +6,7 @@ export default () => ({
       messages: defineMessages({
         label: {
           id: 'column.vocabulary.default.displayName',
-          defaultMessage: 'Name',
+          defaultMessage: 'Nome',
         },
       }),
       order: 10,

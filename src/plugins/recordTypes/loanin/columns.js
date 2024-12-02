@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.loanin.default.loanInNumber',
-            defaultMessage: 'Loan in number',
+            defaultMessage: 'Número do Empréstimo Recebido',
           },
         }),
         order: 10,
@@ -24,7 +24,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.loanin.default.lender',
-            defaultMessage: 'Lender',
+            defaultMessage: 'Credor',
           },
         }),
         order: 20,
@@ -36,7 +36,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.loanin.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

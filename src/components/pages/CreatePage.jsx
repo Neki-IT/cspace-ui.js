@@ -14,19 +14,19 @@ const serviceTypes = ['object', 'procedure', 'authority'];
 const messages = defineMessages({
   title: {
     id: 'createPage.title',
-    defaultMessage: 'Create New',
+    defaultMessage: 'Criar Novo',
   },
   object: {
     id: 'createPage.object',
-    defaultMessage: 'Objects',
+    defaultMessage: 'Objetos',
   },
   procedure: {
     id: 'createPage.procedure',
-    defaultMessage: 'Procedures',
+    defaultMessage: 'Procedimentos',
   },
   authority: {
     id: 'createPage.authority',
-    defaultMessage: 'Authorities',
+    defaultMessage: 'Autoridades',
   },
 });
 

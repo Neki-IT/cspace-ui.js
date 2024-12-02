@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'backButton.label',
     description: 'Label of the back button.',
-    defaultMessage: 'Back',
+    defaultMessage: 'Voltar',
   },
 });
 

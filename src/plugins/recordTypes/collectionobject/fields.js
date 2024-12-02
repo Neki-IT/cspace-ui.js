@@ -109,7 +109,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.collectionobjects_annotation.annotationGroup.name',
-                  defaultMessage: 'Annotation',
+                  defaultMessage: 'Anotação',
                 },
               }),
               repeating: true,
@@ -122,11 +122,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.collectionobjects_annotation.annotationType.fullName',
-                    defaultMessage: 'Annotation type',
+                    defaultMessage: 'Tipo da Anotação',
                   },
                   name: {
                     id: 'field.collectionobjects_annotation.annotationType.name',
-                    defaultMessage: 'Type',
+                    defaultMessage: 'Tipo',
                   },
                 }),
                 view: {
@@ -142,11 +142,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.collectionobjects_annotation.annotationNote.fullName',
-                    defaultMessage: 'Annotation note',
+                    defaultMessage: 'Nota da Anotação',
                   },
                   name: {
                     id: 'field.collectionobjects_annotation.annotationNote.name',
-                    defaultMessage: 'Note',
+                    defaultMessage: 'Nota',
                   },
                 }),
                 view: {
@@ -164,11 +164,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.collectionobjects_annotation.annotationDate.fullName',
-                    defaultMessage: 'Annotation date',
+                    defaultMessage: 'Data da Anotação',
                   },
                   name: {
                     id: 'field.collectionobjects_annotation.annotationDate.name',
-                    defaultMessage: 'Date',
+                    defaultMessage: 'Data',
                   },
                 }),
                 view: {
@@ -181,11 +181,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.collectionobjects_annotation.annotationAuthor.fullName',
-                    defaultMessage: 'Annotation author',
+                    defaultMessage: 'Autor da Anotação',
                   },
                   name: {
                     id: 'field.collectionobjects_annotation.annotationAuthor.name',
-                    defaultMessage: 'Author',
+                    defaultMessage: 'Autor',
                   },
                 }),
                 view: {
@@ -942,11 +942,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.collectionobjects_common.age.fullName',
-                defaultMessage: 'Age value',
+                defaultMessage: 'Valor da Idade',
               },
               name: {
                 id: 'field.collectionobjects_common.age.name',
-                defaultMessage: 'Value',
+                defaultMessage: 'Valor',
               },
             }),
             view: {

@@ -12,7 +12,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.itemDisplayName',
-          defaultMessage: 'Term',
+          defaultMessage: 'Termo',
         },
       }),
       order: 10,
@@ -24,7 +24,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.type',
-          defaultMessage: 'Type',
+          defaultMessage: 'Tipo',
         },
       }),
       order: 20,
@@ -36,7 +36,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.vocabulary',
-          defaultMessage: 'Vocabulary',
+          defaultMessage: 'Vocabulário',
         },
       }),
       order: 30,
@@ -47,7 +47,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.sourceField',
-          defaultMessage: 'Field',
+          defaultMessage: 'Campo',
         },
       }),
       order: 40,
@@ -59,7 +59,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.itemDisplayName',
-          defaultMessage: 'Term',
+          defaultMessage: 'Termo',
         },
       }),
       order: 10,
@@ -71,7 +71,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.type',
-          defaultMessage: 'Type',
+          defaultMessage: 'Tipo',
         },
       }),
       order: 20,
@@ -83,7 +83,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.vocabulary',
-          defaultMessage: 'Vocabulary',
+          defaultMessage: 'Vocabulário',
         },
       }),
       order: 30,
@@ -94,7 +94,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.terms.sourceField',
-          defaultMessage: 'Field',
+          defaultMessage: 'Campo',
         },
       }),
       order: 40,

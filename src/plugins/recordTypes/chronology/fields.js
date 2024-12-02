@@ -80,7 +80,7 @@ export default (configContext) => {
             messages: defineMessages({
               required: {
                 id: 'field.chronologies_common.chronologyTermGroupList.required',
-                defaultMessage: 'At least one term display name is required. Please enter a value.',
+                defaultMessage: 'Pelo menos um nome de exibição do termo é necessário. Por favor, insira um valor.',
               },
             }),
             required: true,
@@ -93,7 +93,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.chronologies_common.chronologyTermGroup.name',
-                  defaultMessage: 'Term',
+                  defaultMessage: 'Termo',
                 },
               }),
               repeating: true,
@@ -106,11 +106,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termDisplayName.fullName',
-                    defaultMessage: 'Term display name',
+                    defaultMessage: 'Nome de Exibição do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termDisplayName.name',
-                    defaultMessage: 'Display name',
+                    defaultMessage: 'Nome de Exibição',
                   },
                 }),
                 required: true,
@@ -124,11 +124,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termName.fullName',
-                    defaultMessage: 'Term name',
+                    defaultMessage: 'Nome do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termName.name',
-                    defaultMessage: 'Name',
+                    defaultMessage: 'Nome',
                   },
                 }),
                 view: {
@@ -141,11 +141,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termType.fullName',
-                    defaultMessage: 'Term type',
+                    defaultMessage: 'Tipo do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termType.name',
-                    defaultMessage: 'Type',
+                    defaultMessage: 'Tipo',
                   },
                 }),
                 view: {
@@ -161,11 +161,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termFlag.fullName',
-                    defaultMessage: 'Term flag',
+                    defaultMessage: 'Indicador do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termFlag.name',
-                    defaultMessage: 'Flag',
+                    defaultMessage: 'Indicador',
                   },
                 }),
                 view: {
@@ -181,7 +181,7 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termStatus.fullName',
-                    defaultMessage: 'Term status',
+                    defaultMessage: 'Status do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termStatus.name',
@@ -201,11 +201,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.historicalStatus.fullName',
-                    defaultMessage: 'Term historical status',
+                    defaultMessage: 'Status Histórico do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.historicalStatus.name',
-                    defaultMessage: 'Historical status',
+                    defaultMessage: 'Status Histórico',
                   },
                 }),
                 view: {
@@ -221,11 +221,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termQualifier.fullName',
-                    defaultMessage: 'Term qualifier',
+                    defaultMessage: 'Qualificador do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termQualifier.name',
-                    defaultMessage: 'Qualifier',
+                    defaultMessage: 'Qualificador',
                   },
                 }),
                 view: {
@@ -238,11 +238,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termLanguage.fullName',
-                    defaultMessage: 'Term language',
+                    defaultMessage: 'Idioma do Termo',
                   },
                   name: {
                     id: 'field.chronologies_common.termLanguage.name',
-                    defaultMessage: 'Language',
+                    defaultMessage: 'Idioma',
                   },
                 }),
                 view: {
@@ -259,11 +259,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termPrefForLang.fullName',
-                    defaultMessage: 'Term preferred for lang',
+                    defaultMessage: 'Termo Preferido para o Idioma',
                   },
                   name: {
                     id: 'field.chronologies_common.termPrefForLang.name',
-                    defaultMessage: 'Preferred for lang',
+                    defaultMessage: 'Preferido para o Idioma',
                   },
                 }),
                 view: {
@@ -276,15 +276,15 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termSource.fullName',
-                    defaultMessage: 'Term source name',
+                    defaultMessage: 'Fonte do Nome do Termo',
                   },
                   groupName: {
                     id: 'field.chronologies_common.termSource.groupName',
-                    defaultMessage: 'Source name',
+                    defaultMessage: 'Nome da Fonte',
                   },
                   name: {
                     id: 'field.chronologies_common.termSource.name',
-                    defaultMessage: 'Name',
+                    defaultMessage: 'Fonte',
                   },
                 }),
                 view: {
@@ -300,15 +300,15 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termSourceDetail.fullName',
-                    defaultMessage: 'Term source detail',
+                    defaultMessage: 'Detalhe da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.chronologies_common.termSourceDetail.groupName',
-                    defaultMessage: 'Source detail',
+                    defaultMessage: 'Detalhe da Fonte',
                   },
                   name: {
                     id: 'field.chronologies_common.termSourceDetail.name',
-                    defaultMessage: 'Detail',
+                    defaultMessage: 'Detalhe',
                   },
                 }),
                 view: {
@@ -321,11 +321,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termSourceID.fullName',
-                    defaultMessage: 'Term source ID',
+                    defaultMessage: 'ID da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.chronologies_common.termSourceID.groupName',
-                    defaultMessage: 'Source ID',
+                    defaultMessage: 'ID da Fonte',
                   },
                   name: {
                     id: 'field.chronologies_common.termSourceID.name',
@@ -342,15 +342,15 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.termSourceNote.fullName',
-                    defaultMessage: 'Term source note',
+                    defaultMessage: 'Nota da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.chronologies_common.termSourceNote.groupName',
-                    defaultMessage: 'Source note',
+                    defaultMessage: 'Nota da Fonte',
                   },
                   name: {
                     id: 'field.chronologies_common.termSourceNote.name',
-                    defaultMessage: 'Note',
+                    defaultMessage: 'Nota',
                   },
                 }),
                 view: {
@@ -366,7 +366,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.chronologies_common.primaryDateRangeStructuredDateGroup.name',
-                defaultMessage: 'Primary date range',
+                defaultMessage: 'Intervalo de Datas Principal',
               },
             }),
             view: {
@@ -386,7 +386,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.chronologies_common.spatialCoverage.name',
-                  defaultMessage: 'Spatial coverage',
+                  defaultMessage: 'Cobertura Espacial',
                 },
               }),
               repeating: true,
@@ -404,7 +404,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.chronologies_common.chronologyType.name',
-                defaultMessage: 'Chronology type',
+                defaultMessage: 'Tipo de Cronologia',
               },
             }),
             view: {
@@ -420,7 +420,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.chronologies_common.chronologyNote.name',
-                defaultMessage: 'Chronology note',
+                defaultMessage: 'Nota da Cronologia',
               },
             }),
             view: {
@@ -436,7 +436,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.chronologies_common.chronologyDescription.name',
-                defaultMessage: 'Chronology description',
+                defaultMessage: 'Descrição da Cronologia',
               },
             }),
             view: {
@@ -458,7 +458,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.chronologies_common.identifierGroup.name',
-                  defaultMessage: 'Resource identifier',
+                  defaultMessage: 'Identificador de Recurso',
                 },
               }),
               repeating: true,
@@ -474,11 +474,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.identifierValue.fullName',
-                    defaultMessage: 'Resource identifier value',
+                    defaultMessage: 'Valor do Identificador de Recurso',
                   },
                   name: {
                     id: 'field.chronologies_common.identifierValue.name',
-                    defaultMessage: 'Value',
+                    defaultMessage: 'Valor',
                   },
                 }),
                 view: {
@@ -491,11 +491,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.identifierCitation.fullName',
-                    defaultMessage: 'Resource identifier citation',
+                    defaultMessage: 'Citação do Identificador de Recurso',
                   },
                   name: {
                     id: 'field.chronologies_common.identifierCitation.name',
-                    defaultMessage: 'Citation',
+                    defaultMessage: 'Citação',
                   },
                 }),
                 view: {
@@ -512,11 +512,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.identifierDate.fullName',
-                    defaultMessage: 'Resource identifier date',
+                    defaultMessage: 'Data do Identificador de Recurso',
                   },
                   name: {
                     id: 'field.chronologies_common.identifierDate.name',
-                    defaultMessage: 'Date',
+                    defaultMessage: 'Data',
                   },
                 }),
                 view: {
@@ -537,7 +537,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.chronologies_common.altDateGroup.name',
-                  defaultMessage: 'Alternative date',
+                  defaultMessage: 'Data Alternativa',
                 },
               }),
               repeating: true,
@@ -551,11 +551,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.altDateRangeStructuredDateGroup.fullName',
-                    defaultMessage: 'Alternative date range',
+                    defaultMessage: 'Intervalo de Datas Alternativo',
                   },
                   name: {
                     id: 'field.chronologies_common.altDateRangeStructuredDateGroup.name',
-                    defaultMessage: 'Range',
+                    defaultMessage: 'Intervalo',
                   },
                 }),
                 view: {
@@ -575,11 +575,11 @@ export default (configContext) => {
                   messages: defineMessages({
                     fullName: {
                       id: 'field.chronologies_common.altDateSpatialCoverage.fullName',
-                      defaultMessage: 'Alternative date spatial coverage',
+                      defaultMessage: 'Cobertura Espacial da Data Alternativa',
                     },
                     name: {
                       id: 'field.chronologies_common.altDateSpatialCoverage.name',
-                      defaultMessage: 'Spatial coverage',
+                      defaultMessage: 'Cobertura Espacial',
                     },
                   }),
                   repeating: true,
@@ -603,11 +603,11 @@ export default (configContext) => {
                   messages: defineMessages({
                     fullName: {
                       id: 'field.chronologies_common.altDateCitation.fullName',
-                      defaultMessage: 'Alternative date citation',
+                      defaultMessage: 'Citação da Data Alternativa',
                     },
                     name: {
                       id: 'field.chronologies_common.altDateCitation.name',
-                      defaultMessage: 'Citation',
+                      defaultMessage: 'Citação',
                     },
                   }),
                   repeating: true,
@@ -625,11 +625,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.chronologies_common.altDateNote.fullName',
-                    defaultMessage: 'Alternative date note',
+                    defaultMessage: 'Nota da Data Alternativa',
                   },
                   name: {
                     id: 'field.chronologies_common.altDateNote.name',
-                    defaultMessage: 'Note',
+                    defaultMessage: 'Nota',
                   },
                 }),
                 view: {

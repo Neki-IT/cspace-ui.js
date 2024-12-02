@@ -11,20 +11,20 @@ const messages = defineMessages({
   cancel: {
     id: 'exportModal.cancel',
     description: 'Label of the cancel button in the export modal.',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Cancelar',
   },
   export: {
     id: 'exportModal.export',
     description: 'Label of the export button in the export modal.',
-    defaultMessage: 'Export',
+    defaultMessage: 'Exportar',
   },
   label: {
     id: 'exportModal.label',
-    defaultMessage: 'Export',
+    defaultMessage: 'Exportar',
   },
   title: {
     id: 'exportModal.title',
-    defaultMessage: 'Export as CSV',
+    defaultMessage: 'Exportar como CSV',
   },
 });
 

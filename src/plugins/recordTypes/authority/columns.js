@@ -26,7 +26,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.authority.default.docType',
-            defaultMessage: 'Type',
+            defaultMessage: 'Tipo',
           },
         }),
         order: 20,
@@ -38,7 +38,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.authority.default.vocabulary',
-            defaultMessage: 'Vocabulary',
+            defaultMessage: 'Vocabulário',
           },
         }),
         order: 30,
@@ -49,7 +49,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.authority.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 40,

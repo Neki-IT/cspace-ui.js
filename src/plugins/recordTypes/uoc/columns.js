@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.uoc.default.referenceNumber',
-            defaultMessage: 'Reference number',
+            defaultMessage: 'Número de Referência',
           },
         }),
         order: 10,
@@ -23,7 +23,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.uoc.default.title',
-            defaultMessage: 'Title',
+            defaultMessage: 'Título',
           },
         }),
         order: 20,
@@ -35,7 +35,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.uoc.default.authorizedBy',
-            defaultMessage: 'Authorized by',
+            defaultMessage: 'Autorizado por',
           },
         }),
         order: 30,
@@ -47,7 +47,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.exhibition.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

@@ -56,7 +56,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.authrole.displayName.name',
-              defaultMessage: 'Name',
+              defaultMessage: 'Nome',
             },
           }),
           required: true,
@@ -70,7 +70,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.authrole.description.name',
-              defaultMessage: 'Description',
+              defaultMessage: 'Descrição',
             },
           }),
           view: {
@@ -108,7 +108,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.authrole.permission.name',
-              defaultMessage: 'Permissions',
+              defaultMessage: 'Permissões',
             },
           }),
           view: {

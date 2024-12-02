@@ -15,7 +15,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.default.docNumber',
-          defaultMessage: 'Record',
+          defaultMessage: 'Registro',
         },
       }),
       order: 10,
@@ -28,7 +28,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.default.docName',
-          defaultMessage: 'Summary',
+          defaultMessage: 'Resumo',
         },
       }),
       order: 20,
@@ -39,7 +39,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.default.docType',
-          defaultMessage: 'Type',
+          defaultMessage: 'Tipo',
         },
       }),
       order: 30,
@@ -50,7 +50,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.default.sourceField',
-          defaultMessage: 'Field',
+          defaultMessage: 'Campo',
         },
       }),
       order: 40,
@@ -65,7 +65,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.narrow.docNumber',
-          defaultMessage: 'Record',
+          defaultMessage: 'Registro',
         },
       }),
       order: 10,
@@ -78,7 +78,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.narrow.docName',
-          defaultMessage: 'Summary',
+          defaultMessage: 'Resumo',
         },
       }),
       order: 20,
@@ -89,7 +89,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.narrow.docType',
-          defaultMessage: 'Type',
+          defaultMessage: 'Tipo',
         },
       }),
       order: 30,
@@ -100,7 +100,7 @@ export default {
       messages: defineMessages({
         label: {
           id: 'column.refs.narrow.sourceField',
-          defaultMessage: 'Field',
+          defaultMessage: 'Campo',
         },
       }),
       order: 40,

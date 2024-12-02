@@ -72,7 +72,7 @@ const config = {
             messages: {
               label: {
                 id: 'column.collectionobject.default.objectNumber',
-                defaultMessage: 'Identification number',
+                defaultMessage: 'Número de Identificação',
               },
             },
             order: 10,
