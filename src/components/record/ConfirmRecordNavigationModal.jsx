@@ -11,27 +11,27 @@ const messages = defineMessages({
   title: {
     id: 'confirmRecordNavigationModal.title',
     description: 'Title of the modal shown to confirm navigation away from a record that has unsaved changes.',
-    defaultMessage: 'Leave Record?',
+    defaultMessage: 'Sair do Registro?',
   },
   prompt: {
     id: 'confirmRecordNavigationModal.prompt',
     description: 'The prompt shown to confirm navigation away from a record that has unsaved changes.',
-    defaultMessage: 'You\'re about to leave a record that has unsaved changes.',
+    defaultMessage: 'Você está prestes a sair de um registro que tem alterações não salvas.',
   },
   cancel: {
     id: 'confirmRecordNavigationModal.cancel',
     description: 'Label of the cancel button in the confirm navigation modal.',
-    defaultMessage: 'Don\'t leave',
+    defaultMessage: 'Não sair',
   },
   save: {
     id: 'confirmRecordNavigationModal.save',
     description: 'Label of the save button in the confirm navigation modal.',
-    defaultMessage: 'Save and continue',
+    defaultMessage: 'Salvar e continuar',
   },
   revert: {
     id: 'confirmRecordNavigationModal.revert',
     description: 'Label of the revert button in the confirm navigation modal.',
-    defaultMessage: 'Revert and continue',
+    defaultMessage: 'Reverter e continuar',
   },
 });
 

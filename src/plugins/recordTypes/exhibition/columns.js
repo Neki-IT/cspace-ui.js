@@ -11,7 +11,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.exhibition.default.exhibitionNumber',
-            defaultMessage: 'Exhibition number',
+            defaultMessage: 'Número da Exibição',
           },
         }),
         order: 10,
@@ -22,7 +22,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.exhibition.default.title',
-            defaultMessage: 'Title',
+            defaultMessage: 'Título',
           },
         }),
         order: 20,
@@ -34,7 +34,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.exhibition.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

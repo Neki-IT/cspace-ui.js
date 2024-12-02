@@ -6,7 +6,7 @@ export default () => ({
       messages: defineMessages({
         label: {
           id: 'column.batch.default.name',
-          defaultMessage: 'Name',
+          defaultMessage: 'Nome',
         },
       }),
       order: 10,

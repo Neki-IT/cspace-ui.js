@@ -21,43 +21,43 @@ import styles from '../../../styles/cspace-ui/ErrorPage.css';
 const messages = defineMessages({
   title: {
     id: 'errorPage.title',
-    defaultMessage: 'Page Not Found',
+    defaultMessage: 'Página Não Encontrada',
   },
   error: {
     id: 'errorPage.error',
-    defaultMessage: 'Error code: {code}',
+    defaultMessage: 'Código de erro: {code}',
   },
   [ERR_NOT_ALLOWED]: {
     id: 'errorPage.ERR_NOT_ALLOWED',
-    defaultMessage: 'You\'re not allowed to view this type of record.',
+    defaultMessage: 'Você não tem permissão para visualizar este tipo de registro.',
   },
   [ERR_NOT_FOUND]: {
     id: 'errorPage.ERR_NOT_FOUND',
-    defaultMessage: 'The record you\'re looking for doesn\'t seem to exist.',
+    defaultMessage: 'O registro que você está procurando parece não existir.',
   },
   [ERR_MISSING_VOCABULARY]: {
     id: 'errorPage.ERR_MISSING_VOCABULARY',
-    defaultMessage: 'A vocabulary must be specified for the authority record type "{recordType}".',
+    defaultMessage: 'Um vocabulário deve ser especificado para o tipo de registro de autoridade "{recordType}".',
   },
   [ERR_UNKNOWN_RECORD_TYPE]: {
     id: 'errorPage.ERR_UNKNOWN_RECORD_TYPE',
-    defaultMessage: 'There is no record type named "{recordType}".',
+    defaultMessage: 'Não há tipo de registro chamado "{recordType}".',
   },
   [ERR_UNKNOWN_VOCABULARY]: {
     id: 'errorPage.ERR_UNKNOWN_VOCABULARY',
-    defaultMessage: 'There is no vocabulary named "{vocabulary}" for the record type "{recordType}".',
+    defaultMessage: 'Não há vocabulário chamado "{vocabulary}" para o tipo de registro "{recordType}".',
   },
   [ERR_INVALID_CSID]: {
     id: 'errorPage.ERR_INVALID_CSID',
-    defaultMessage: '"{csid}" is not a valid CSID.',
+    defaultMessage: '"{csid}" não é um CSID válido.',
   },
   [ERR_INVALID_RELATED_TYPE]: {
     id: 'errorPage.ERR_INVALID_RELATED_TYPE',
-    defaultMessage: 'The record type "{recordType}" does not have a related type "{relatedRecordType}".',
+    defaultMessage: 'O tipo de registro "{recordType}" não tem um tipo relacionado "{relatedRecordType}".',
   },
   [ERR_UNKNOWN_SUBRESOURCE]: {
     id: 'errorPage.ERR_UNKNOWN_SUBRESOURCE',
-    defaultMessage: 'There is no subresource named "{subresource}".',
+    defaultMessage: 'Não há sub-recurso chamado "{subresource}".',
   },
 });
 

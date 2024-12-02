@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.acquisition.default.acquisitionReferenceNumber',
-            defaultMessage: 'Reference number',
+            defaultMessage: 'Número de Referência',
           },
         }),
         order: 10,
@@ -24,7 +24,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.acquisition.default.acquisitionSource',
-            defaultMessage: 'Acquisition source',
+            defaultMessage: 'Fonte de Aquisição',
           },
         }),
         order: 20,
@@ -36,7 +36,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.acquisition.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

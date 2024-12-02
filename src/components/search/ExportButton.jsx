@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'exportButton.label',
     description: 'Label of the export button.',
-    defaultMessage: 'Export…',
+    defaultMessage: 'Exportar…',
   },
 });
 

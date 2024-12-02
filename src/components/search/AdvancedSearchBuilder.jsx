@@ -34,7 +34,7 @@ const childContextTypes = {
 const messages = defineMessages({
   title: {
     id: 'advancedSearchBuilder.title',
-    defaultMessage: 'Advanced Search',
+    defaultMessage: 'Busca Avançada',
   },
 });
 

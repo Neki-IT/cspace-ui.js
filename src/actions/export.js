@@ -24,7 +24,7 @@ const messages = defineMessages({
   error: {
     id: 'export.error',
     description: 'Notification message shown when an export fails.',
-    defaultMessage: 'Error generating export: {error}',
+    defaultMessage: 'Erro ao gerar exportação: {error}',
   },
 });
 

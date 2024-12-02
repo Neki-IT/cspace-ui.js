@@ -10,12 +10,12 @@ const messages = defineMessages({
   filter: {
     id: 'accountSearchBar.filter',
     description: 'Label of the input on the search bar of the account (user) admin page.',
-    defaultMessage: 'Filter by full name',
+    defaultMessage: 'Filtrar por nome completo',
   },
   clear: {
     id: 'accountSearchBar.clear',
     description: 'Label of the clear button on the search bar of the account (user) admin page.',
-    defaultMessage: 'Clear',
+    defaultMessage: 'Limpar',
   },
 });
 

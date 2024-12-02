@@ -45,7 +45,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.blobs_common.name.name',
-                defaultMessage: 'Name',
+                defaultMessage: 'Nome',
               },
             }),
             view: {
@@ -62,7 +62,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.blobs_common.length.name',
-                defaultMessage: 'Size',
+                defaultMessage: 'Tamanho',
               },
               value: {
                 id: 'field.blobs_common.length.value',
@@ -83,7 +83,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.blobs_common.mimeType.name',
-                defaultMessage: 'Type',
+                defaultMessage: 'Tipo',
               },
             }),
             view: {

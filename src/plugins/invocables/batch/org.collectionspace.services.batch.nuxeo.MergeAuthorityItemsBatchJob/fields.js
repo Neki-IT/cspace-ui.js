@@ -22,7 +22,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.batch.Merge Authority Items.targetCSID.name',
-              defaultMessage: 'Target record',
+              defaultMessage: 'Registro Alvo',
             },
           }),
           required: true,

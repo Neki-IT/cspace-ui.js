@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'closeButton.label',
     description: 'Label of the close button.',
-    defaultMessage: 'Close',
+    defaultMessage: 'Fechar',
   },
 });
 

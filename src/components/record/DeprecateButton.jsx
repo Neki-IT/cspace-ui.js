@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'deprecateButton.label',
     description: 'Label of the deprecate button.',
-    defaultMessage: 'Deactivate',
+    defaultMessage: 'Desativar',
   },
 });
 

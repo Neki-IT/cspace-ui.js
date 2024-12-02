@@ -101,25 +101,25 @@ const deleteMessages = defineMessages({
     id: 'action.record.deleting',
     description: 'Notification message displayed when a record is being deleted.',
     defaultMessage: `{hasTitle, select,
-      yes {Deleting {title}…}
-      other {Deleting record…}
+      yes {Deletando {title}…}
+      other {Deletando registro…}
     }`,
   },
   errorDeleting: {
     id: 'action.record.errorDeleting',
     description: 'Notification message displayed when a record delete fails.',
     defaultMessage: `{hasTitle, select,
-      yes {Error deleting {title}: {error}}
-      other {Error deleting record: {error}}
+      yes {Erro ao deletar {title}: {error}}
+      other {Erro ao deletar registro: {error}}
     }`,
   },
   deleted: {
     id: 'action.record.deleted',
     description: 'Notification message displayed when a record is deleted successfully.',
     defaultMessage: `{hasTitle, select,
-      yes {Deleted {title}}
-      other {Deleted record}
-    }`,
+       yes {Deletado {title}}
+       other {Registro deletado}
+      }`,
   },
 });
 
@@ -128,30 +128,30 @@ const saveMessages = defineMessages({
     id: 'action.record.saving',
     description: 'Notification message displayed when a record is being saved.',
     defaultMessage: `{hasTitle, select,
-      yes {Saving {title}…}
-      other {Saving record…}
+      yes {Salvando {title}…}
+      other {Salvando registro…}
     }`,
   },
   errorSaving: {
     id: 'action.record.errorSaving',
     description: 'Notification message displayed when a record save fails and there is no more specific message.',
     defaultMessage: `{hasTitle, select,
-      yes {Error saving {title}: {error}}
-      other {Error saving record: {error}}
+      yes {Erro ao salvar {title}: {error}}
+      other {Erro ao salvar registro: {error}}
     }`,
   },
   saved: {
     id: 'action.record.saved',
     description: 'Notification message displayed when a record is saved successfully.',
     defaultMessage: `{hasTitle, select,
-      yes {Saved {title}}
-      other {Saved record}
+      yes {Erro ao salvar {title}: {error}}
+      other {Erro ao salvar registro: {error}}
     }`,
   },
   errorDupRoleName: {
     id: 'action.record.errorDupRoleName',
     description: 'Notification message displayed when a role save fails because of a duplicate name.',
-    defaultMessage: 'Error saving {title}: A role already exists with this name. Please choose a different name.',
+    defaultMessage: 'Erro ao salvar {title}: Já existe um papel com este nome. Escolha outro nome.',
   },
 });
 
@@ -161,24 +161,24 @@ const transitionMessages = {
       id: 'action.record.transition.delete.transitioning',
       description: 'Notification message displayed when a delete workflow transition (soft-delete) is in progress.',
       defaultMessage: `{hasTitle, select,
-        yes {Deleting {title}…}
-        other {Deleting record…}
+        yes {Deletando {title}…}
+        other {Deletando registro…}
       }`,
     },
     errorTransitioning: {
       id: 'action.record.transition.delete.errorTransitioning',
       description: 'Notification message displayed when a delete workflow transition (soft-delete) fails.',
       defaultMessage: `{hasTitle, select,
-        yes {Error deleting {title}: {error}}
-        other {Error deleting record: {error}}
+        yes {Erro ao deletar {title}: {error}}
+        other {Erro ao deletar registro: {error}}
       }`,
     },
     transitioned: {
       id: 'action.record.transition.delete.transitioned',
       description: 'Notification message displayed when a delete workflow transition (soft-delete) completes successfully.',
       defaultMessage: `{hasTitle, select,
-        yes {Deleted {title}}
-        other {Deleted record}
+        yes {Deletado {title}}
+        other {Registro deletado}
       }`,
     },
   }),
@@ -187,24 +187,24 @@ const transitionMessages = {
       id: 'action.record.transition.lock.transitioning',
       description: 'Notification message displayed when a lock workflow transition is in progress.',
       defaultMessage: `{hasTitle, select,
-        yes {Locking {title}…}
-        other {Locking record…}
+        yes {Bloqueando {title}…}
+        other {Bloqueando registro…}
       }`,
     },
     errorTransitioning: {
       id: 'action.record.transition.lock.errorTransitioning',
       description: 'Notification message displayed when a lock workflow transition fails.',
       defaultMessage: `{hasTitle, select,
-        yes {Error locking {title}: {error}}
-        other {Error locking record: {error}}
+        yes {Erro ao bloquear {title}: {error}}
+        other {Erro ao bloquear registro: {error}}
       }`,
     },
     transitioned: {
       id: 'action.record.transition.lock.transitioned',
       description: 'Notification message displayed when a lock workflow transition completes successfully.',
       defaultMessage: `{hasTitle, select,
-        yes {Locked {title}}
-        other {Locked record}
+        yes {Bloqueado {title}}
+        other {Registro bloqueado}
       }`,
     },
   }),

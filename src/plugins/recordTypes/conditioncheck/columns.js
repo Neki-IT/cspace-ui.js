@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.conditioncheck.default.conditionCheckRefNumber',
-            defaultMessage: 'Reference number',
+            defaultMessage: 'Número de Referência',
           },
         }),
         order: 10,
@@ -24,7 +24,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.conditioncheck.default.condition',
-            defaultMessage: 'Condition',
+            defaultMessage: 'Condição',
           },
         }),
         order: 20,
@@ -36,7 +36,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.conditioncheck.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

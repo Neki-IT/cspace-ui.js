@@ -53,11 +53,11 @@ export default (configContext) => {
             messages: defineMessages({
               inUse: {
                 id: 'field.acquisitions_common.acquisitionReferenceNumber.inUse',
-                defaultMessage: 'The reference number {value} is in use by another record.',
+                defaultMessage: 'O número de referência {value} está em uso por outro registro.',
               },
               name: {
                 id: 'field.acquisitions_common.acquisitionReferenceNumber.name',
-                defaultMessage: 'Reference number',
+                defaultMessage: 'Número de Referência',
               },
             }),
             required: true,
@@ -83,7 +83,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.accessionDateGroup.name',
-                defaultMessage: 'Accession date',
+                defaultMessage: 'Data de Aquisição',
               },
             }),
             view: {
@@ -97,7 +97,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.acquisitionAuthorizer.name',
-                defaultMessage: 'Authorizer',
+                defaultMessage: 'Autorizador',
               },
             }),
             view: {
@@ -114,11 +114,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.acquisitionAuthorizerDate.fullName',
-                defaultMessage: 'Authorization date',
+                defaultMessage: 'Data da Autorização',
               },
               name: {
                 id: 'field.acquisitions_common.acquisitionAuthorizerDate.name',
-                defaultMessage: 'Date',
+                defaultMessage: 'Data',
               },
             }),
             view: {
@@ -138,7 +138,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.acquisitions_common.acquisitionDateGroup.name',
-                  defaultMessage: 'Acquisition date',
+                  defaultMessage: 'Data de Aquisição',
                 },
               }),
               repeating: true,
@@ -154,7 +154,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.acquisitionMethod.name',
-                defaultMessage: 'Acquisition method',
+                defaultMessage: 'Método de Aquisição',
               },
             }),
             view: {
@@ -177,7 +177,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.acquisitions_common.acquisitionSource.name',
-                  defaultMessage: 'Acquisition source',
+                  defaultMessage: 'Fonte de Aquisição',
                 },
               }),
               view: {
@@ -200,7 +200,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.acquisitions_common.owner.name',
-                  defaultMessage: 'Owner',
+                  defaultMessage: 'Proprietário',
                 },
               }),
               repeating: true,
@@ -218,7 +218,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.transferOfTitleNumber.name',
-                defaultMessage: 'Transfer of title number',
+                defaultMessage: 'Número de Transferência de Título',
               },
             }),
             view: {
@@ -237,7 +237,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.acquisitions_common.approvalGroup.name',
-                  defaultMessage: 'Approval',
+                  defaultMessage: 'Aprovação',
                 },
               }),
               repeating: true,
@@ -250,11 +250,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.approvalGroup.approvalGroup.fullName',
-                    defaultMessage: 'Approval group',
+                    defaultMessage: 'Grupo de Aprovação',
                   },
                   name: {
                     id: 'field.acquisitions_common.approvalGroup.approvalGroup.name',
-                    defaultMessage: 'Group',
+                    defaultMessage: 'Grupo',
                   },
                 }),
                 view: {
@@ -270,11 +270,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.approvalIndividual.fullName',
-                    defaultMessage: 'Approval individual',
+                    defaultMessage: 'Indivíduo Aprovador',
                   },
                   name: {
                     id: 'field.acquisitions_common.approvalIndividual.name',
-                    defaultMessage: 'Individual',
+                    defaultMessage: 'Indivíduo',
                   },
                 }),
                 view: {
@@ -290,7 +290,7 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.approvalStatus.fullName',
-                    defaultMessage: 'Approval status',
+                    defaultMessage: 'Status de Aprovação',
                   },
                   name: {
                     id: 'field.acquisitions_common.approvalStatus.name',
@@ -311,11 +311,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.approvalDate.fullName',
-                    defaultMessage: 'Approval status date',
+                    defaultMessage: 'Data do Status de Aprovação',
                   },
                   name: {
                     id: 'field.acquisitions_common.approvalDate.name',
-                    defaultMessage: 'Date',
+                    defaultMessage: 'Data',
                   },
                 }),
                 view: {
@@ -328,11 +328,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   name: {
                     id: 'field.acquisitions_common.approvalNote.name',
-                    defaultMessage: 'Note',
+                    defaultMessage: 'Nota',
                   },
                   fullName: {
                     id: 'field.acquisitions_common.approvalNote.fullName',
-                    defaultMessage: 'Approval note',
+                    defaultMessage: 'Nota de Aprovação',
                   },
                 }),
                 view: {
@@ -351,7 +351,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.creditLine.name',
-                defaultMessage: 'Credit line',
+                defaultMessage: 'Linha de Crédito',
               },
             }),
             view: {
@@ -364,11 +364,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.groupPurchasePriceCurrency.fullName',
-                defaultMessage: 'Group purchase price currency',
+                defaultMessage: 'Moeda do Preço de Compra em Grupo',
               },
               name: {
                 id: 'field.acquisitions_common.groupPurchasePriceCurrency.name',
-                defaultMessage: 'Currency',
+                defaultMessage: 'Moeda',
               },
             }),
             view: {
@@ -385,11 +385,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.groupPurchasePriceValue.fullName',
-                defaultMessage: 'Group purchase price value',
+                defaultMessage: 'Valor do Preço de Compra em Grupo',
               },
               name: {
                 id: 'field.acquisitions_common.groupPurchasePriceValue.name',
-                defaultMessage: 'Value',
+                defaultMessage: 'Valor',
               },
             }),
             view: {
@@ -402,11 +402,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.objectOfferPriceCurrency.fullName',
-                defaultMessage: 'Object offer price currency',
+                defaultMessage: 'Moeda do Preço de Oferta do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.objectOfferPriceCurrency.name',
-                defaultMessage: 'Currency',
+                defaultMessage: 'Moeda',
               },
             }),
             view: {
@@ -423,11 +423,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.objectOfferPriceValue.fullName',
-                defaultMessage: 'Object offer price value',
+                defaultMessage: 'Valor do Preço de Oferta do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.objectOfferPriceValue.name',
-                defaultMessage: 'Value',
+                defaultMessage: 'Valor',
               },
             }),
             view: {
@@ -440,11 +440,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.objectPurchaseOfferPriceCurrency.fullName',
-                defaultMessage: 'Object purchaser offer price currency',
+                defaultMessage: 'Moeda da Oferta de Compra do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.objectPurchaseOfferPriceCurrency.name',
-                defaultMessage: 'Currency',
+                defaultMessage: 'Moeda',
               },
             }),
             view: {
@@ -461,11 +461,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.objectPurchaseOfferPriceValue.fullName',
-                defaultMessage: 'Object purchaser offer price value',
+                defaultMessage: 'Valor da Oferta de Compra do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.objectPurchaseOfferPriceValue.name',
-                defaultMessage: 'Value',
+                defaultMessage: 'Valor',
               },
             }),
             view: {
@@ -478,11 +478,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.objectPurchasePriceCurrency.fullName',
-                defaultMessage: 'Object purchase price currency',
+                defaultMessage: 'Moeda do Preço de Compra do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.objectPurchasePriceCurrency.name',
-                defaultMessage: 'Currency',
+                defaultMessage: 'Moeda',
               },
             }),
             view: {
@@ -499,11 +499,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.objectPurchasePriceValue.fullName',
-                defaultMessage: 'Object purchase price value',
+                defaultMessage: 'Valor do Preço de Compra do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.objectPurchasePriceValue.name',
-                defaultMessage: 'Value',
+                defaultMessage: 'Valor',
               },
             }),
             view: {
@@ -516,11 +516,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.originalObjectPurchasePriceCurrency.fullName',
-                defaultMessage: 'Original object purchase price currency',
+                defaultMessage: 'Moeda do Preço de Compra Original do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.originalObjectPurchasePriceCurrency.name',
-                defaultMessage: 'Currency',
+                defaultMessage: 'Moeda',
               },
             }),
             view: {
@@ -537,11 +537,11 @@ export default (configContext) => {
             messages: defineMessages({
               fullName: {
                 id: 'field.acquisitions_common.originalObjectPurchasePriceValue.fullName',
-                defaultMessage: 'Original object purchase price value',
+                defaultMessage: 'Valor do Preço de Compra Original do Objeto',
               },
               name: {
                 id: 'field.acquisitions_common.originalObjectPurchasePriceValue.name',
-                defaultMessage: 'Value',
+                defaultMessage: 'Valor',
               },
             }),
             view: {
@@ -554,7 +554,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.acquisitionReason.name',
-                defaultMessage: 'Acquisition reason',
+                defaultMessage: 'Razão da Aquisição',
               },
             }),
             view: {
@@ -570,7 +570,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.acquisitionNote.name',
-                defaultMessage: 'Note',
+                defaultMessage: 'Nota',
               },
             }),
             view: {
@@ -586,7 +586,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.acquisitions_common.acquisitionProvisos.name',
-                defaultMessage: 'Provisos',
+                defaultMessage: 'Provisões',
               },
             }),
             view: {
@@ -608,7 +608,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.acquisitions_common.acquisitionFunding.name',
-                  defaultMessage: 'Funding',
+                  defaultMessage: 'Financiamento',
                 },
               }),
               repeating: true,
@@ -624,11 +624,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.acquisitionFundingCurrency.fullName',
-                    defaultMessage: 'Funding currency',
+                    defaultMessage: 'Moeda do Financiamento',
                   },
                   name: {
                     id: 'field.acquisitions_common.acquisitionFundingCurrency.name',
-                    defaultMessage: 'Currency',
+                    defaultMessage: 'Moeda',
                   },
                 }),
                 view: {
@@ -645,11 +645,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.acquisitionFundingValue.fullName',
-                    defaultMessage: 'Funding value',
+                    defaultMessage: 'Valor do Financiamento',
                   },
                   name: {
                     id: 'field.acquisitions_common.acquisitionFundingValue.name',
-                    defaultMessage: 'Value',
+                    defaultMessage: 'Valor',
                   },
                 }),
                 view: {
@@ -662,11 +662,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.acquisitionFundingSource.fullName',
-                    defaultMessage: 'Funding source',
+                    defaultMessage: 'Fonte do Financiamento',
                   },
                   name: {
                     id: 'field.acquisitions_common.acquisitionFundingSource.name',
-                    defaultMessage: 'Source',
+                    defaultMessage: 'Fonte',
                   },
                 }),
                 view: {
@@ -682,11 +682,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.acquisitions_common.acquisitionFundingSourceProvisos.fullName',
-                    defaultMessage: 'Funding source provisos',
+                    defaultMessage: 'Provisões da Fonte de Financiamento',
                   },
                   name: {
                     id: 'field.acquisitions_common.acquisitionFundingSourceProvisos.name',
-                    defaultMessage: 'Source provisos',
+                    defaultMessage: 'Provisões da Fonte',
                   },
                 }),
                 view: {
@@ -707,7 +707,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.acquisitions_common.fieldCollectionEventName.name',
-                  defaultMessage: 'Field collection event name',
+                  defaultMessage: 'Nome do Evento de Coleta de Campo',
                 },
               }),
               repeating: true,

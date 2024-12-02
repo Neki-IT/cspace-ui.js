@@ -10,12 +10,12 @@ const messages = defineMessages({
   filter: {
     id: 'authRoleSearchBar.filter',
     description: 'Label of the input on the search bar of the role admin page.',
-    defaultMessage: 'Filter by name',
+    defaultMessage: 'Filtrar por nome',
   },
   clear: {
     id: 'authRoleSearchBar.clear',
     description: 'Label of the clear button on the search bar of the role admin page.',
-    defaultMessage: 'Clear',
+    defaultMessage: 'Limpar',
   },
 });
 

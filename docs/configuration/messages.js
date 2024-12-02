@@ -54,7 +54,7 @@ export default {
   "action.record.transition.delete.transitioning": "{hasTitle, select, yes {Deleting {title}…} other {Deleting record…}}",
 
   // Notification message displayed when a lock workflow transition fails.
-  "action.record.transition.lock.errorTransitioning": "{hasTitle, select, yes {Error locking {title}: {error}} other {Error locking record: {error}}}",
+  "action.record.transition.lock.errorTransitioning": "{hasTitle, select, yes {Erro ao bloquear {title}: {error}} other {Erro ao bloquear registro: {error}}}",
 
   // Notification message displayed when a lock workflow transition completes successfully.
   "action.record.transition.lock.transitioned": "{hasTitle, select, yes {Locked {title}} other {Locked record}}",
@@ -999,7 +999,8 @@ export default {
 
   "field.collectionobjects_common.age.name": "Value",
 
-  "field.collectionobjects_common.ageQualifier.fullName": "Age qualifier",
+  // igor 02/12/2024, começar a partir da chave abaixo
+  "field.collectionobjects_common.ageQualifier.fullName": "Qualificador de Idade",
 
   "field.collectionobjects_common.ageQualifier.name": "Qualifier",
 

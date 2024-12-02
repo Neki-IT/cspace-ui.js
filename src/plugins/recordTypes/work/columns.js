@@ -21,7 +21,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.work.default.termDisplayName',
-            defaultMessage: 'Display name',
+            defaultMessage: 'Nome de Exibição',
           },
         }),
         order: 20,
@@ -33,7 +33,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.work.default.termStatus',
-            defaultMessage: 'Term status',
+            defaultMessage: 'Status do Termo',
           },
         }),
         order: 30,
@@ -46,7 +46,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.work.default.vocabulary',
-            defaultMessage: 'Vocabulary',
+            defaultMessage: 'Vocabulário',
           },
         }),
         order: 40,
@@ -57,7 +57,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.work.search.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 50,

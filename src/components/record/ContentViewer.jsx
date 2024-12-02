@@ -12,15 +12,15 @@ import styles from '../../../styles/cspace-ui/ContentViewer.css';
 const messages = defineMessages({
   previewTitle: {
     id: 'contentViewer.previewTitle',
-    defaultMessage: 'File preview',
+    defaultMessage: 'Pré-visualização do arquivo',
   },
   error: {
     id: 'contentViewer.error',
-    defaultMessage: 'Preview not available',
+    defaultMessage: 'Pré-visualização indisponível',
   },
   pending: {
     id: 'contentViewer.pending',
-    defaultMessage: 'File preview',
+    defaultMessage: 'Pré-visualização do arquivo',
   },
 });
 

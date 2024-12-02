@@ -40,7 +40,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.name.name',
-                defaultMessage: 'Name',
+                defaultMessage: 'Nome',
               },
             }),
             view: {
@@ -53,7 +53,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.className.name',
-                defaultMessage: 'Java class',
+                defaultMessage: 'Classe Java',
               },
             }),
             view: {
@@ -69,7 +69,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.notes.name',
-                defaultMessage: 'Description',
+                defaultMessage: 'Descrição',
               },
             }),
             view: {
@@ -86,7 +86,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.supportsNoContext.name',
-                defaultMessage: 'All records',
+                defaultMessage: 'Todos os Registros',
               },
             }),
             view: {
@@ -103,7 +103,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.supportsGroup.name',
-                defaultMessage: 'Group',
+                defaultMessage: 'Grupo',
               },
             }),
             view: {
@@ -120,7 +120,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.supportsDocList.name',
-                defaultMessage: 'Record list',
+                defaultMessage: 'Lista de Registros',
               },
             }),
             view: {
@@ -137,7 +137,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.supportsSingleDoc.name',
-                defaultMessage: 'Single record',
+                defaultMessage: 'Registro Único',
               },
             }),
             view: {
@@ -159,7 +159,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.batch_common.forDocType.name',
-                  defaultMessage: 'For record type',
+                  defaultMessage: 'Para o Tipo de Registro',
                 },
               }),
               repeating: true,
@@ -178,7 +178,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.batch_common.createsNewFocus.name',
-                defaultMessage: 'Navigate to new record when complete',
+                defaultMessage: 'Navegar para o novo registro ao concluir',
               },
             }),
             view: {

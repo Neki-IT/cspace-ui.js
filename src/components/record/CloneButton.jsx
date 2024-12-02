@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'cloneButton.label',
     description: 'Label of the clone button.',
-    defaultMessage: 'Clone',
+    defaultMessage: 'Clonar',
   },
 });
 

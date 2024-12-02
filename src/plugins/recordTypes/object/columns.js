@@ -16,7 +16,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.object.default.docNumber',
-            defaultMessage: 'Record',
+            defaultMessage: 'Registro',
           },
         }),
         order: 10,
@@ -29,7 +29,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.object.default.docName',
-            defaultMessage: 'Summary',
+            defaultMessage: 'Resumo',
           },
         }),
         order: 20,
@@ -40,7 +40,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.object.default.docType',
-            defaultMessage: 'Type',
+            defaultMessage: 'Tipo',
           },
         }),
         order: 30,
@@ -51,7 +51,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.object.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 40,

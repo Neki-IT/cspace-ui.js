@@ -33,7 +33,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.audit_common.csid.name',
-              defaultMessage: 'Audit record identifier',
+              defaultMessage: 'Identificador de Registro de Auditoria',
             },
           }),
           view: {
@@ -49,11 +49,11 @@ export default (configContext) => {
           messages: defineMessages({
             fullName: {
               id: 'field.audit_common.idNumber.fullName',
-              defaultMessage: 'Audit record id',
+              defaultMessage: 'ID do Registro de Auditoria',
             },
             name: {
               id: 'field.audit_common.idNumber.name',
-              defaultMessage: 'Id',
+              defaultMessage: 'ID',
             },
           }),
           view: {
@@ -69,11 +69,11 @@ export default (configContext) => {
           messages: defineMessages({
             fullName: {
               id: 'field.audit_common.resourceType.fullName',
-              defaultMessage: 'Related record type',
+              defaultMessage: 'Tipo de Registro Relacionado',
             },
             name: {
               id: 'field.audit_common.resourceType.name',
-              defaultMessage: 'Record type',
+              defaultMessage: 'Tipo de Registro',
             },
           }),
           view: {
@@ -89,7 +89,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.audit_common.resourceCSID.name',
-              defaultMessage: 'Audited record identifier',
+              defaultMessage: 'Identificador de Registro Auditado',
             },
           }),
           view: {
@@ -105,7 +105,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.audit_common.saveMessage.name',
-              defaultMessage: 'Save message',
+              defaultMessage: 'Mensagem de Salvamento',
             },
           }),
           view: {
@@ -137,7 +137,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.audit_common.eventType.name',
-              defaultMessage: 'Audit event type',
+              defaultMessage: 'Tipo de Evento de Auditoria',
             },
           }),
           view: {
@@ -154,7 +154,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.audit_common.principal.name',
-              defaultMessage: 'Updated by',
+              defaultMessage: 'Atualizado por',
             },
           }),
           view: {
@@ -171,7 +171,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.audit_common.eventDate.name',
-              defaultMessage: 'Updated at',
+              defaultMessage: 'Atualizado em',
             },
           }),
           view: {
@@ -200,7 +200,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.audit_common.key.name',
-                  defaultMessage: 'Key',
+                  defaultMessage: 'Chave',
                 },
               }),
               view: {
@@ -216,7 +216,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.audit_common.fieldName.name',
-                  defaultMessage: 'Field',
+                  defaultMessage: 'Campo',
                 },
               }),
               view: {
@@ -232,7 +232,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.audit_common.originalValue.name',
-                  defaultMessage: 'Original value',
+                  defaultMessage: 'Valor Original',
                 },
               }),
               view: {
@@ -249,7 +249,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.audit_common.newValue.name',
-                  defaultMessage: 'New value',
+                  defaultMessage: 'Novo Valor',
                 },
               }),
               view: {
@@ -266,7 +266,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.audit_common.changeReason.name',
-                  defaultMessage: 'Change reason',
+                  defaultMessage: 'Razão da Mudança',
                 },
               }),
               view: {

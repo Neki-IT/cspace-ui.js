@@ -13,7 +13,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.media.default.blobCsid',
-            defaultMessage: 'Thumbnail',
+            defaultMessage: 'Miniatura',
           },
         }),
         order: 10,
@@ -23,7 +23,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.media.default.identificationNumber',
-            defaultMessage: 'Identification number',
+            defaultMessage: 'Número de Identificação',
           },
         }),
         order: 20,
@@ -34,7 +34,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.media.default.title',
-            defaultMessage: 'Title',
+            defaultMessage: 'Título',
           },
         }),
         order: 30,
@@ -46,7 +46,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.media.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 40,

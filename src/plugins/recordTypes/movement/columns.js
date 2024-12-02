@@ -21,7 +21,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.movement.default.movementReferenceNumber',
-            defaultMessage: 'Reference number',
+            defaultMessage: 'Número de Referência do Movimento',
           },
         }),
         order: 20,
@@ -33,7 +33,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.movement.default.currentLocation',
-            defaultMessage: 'Current location',
+            defaultMessage: 'Localização Atual',
           },
         }),
         order: 30,
@@ -45,7 +45,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.movement.default.locationDate',
-            defaultMessage: 'Location date',
+            defaultMessage: 'Data da Localização',
           },
         }),
         order: 35,
@@ -57,7 +57,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.movement.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 40,

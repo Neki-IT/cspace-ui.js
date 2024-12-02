@@ -78,7 +78,7 @@ export default (configContext) => {
             messages: defineMessages({
               required: {
                 id: 'field.citations_common.citationTermGroupList.required',
-                defaultMessage: 'At least one term display name is required. Please enter a value.',
+                defaultMessage: 'Pelo menos um nome de exibição do termo é necessário. Por favor, insira um valor.',
               },
             }),
             required: true,
@@ -91,7 +91,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.citations_common.citationTermGroup.name',
-                  defaultMessage: 'Term',
+                  defaultMessage: 'Termo',
                 },
               }),
               repeating: true,
@@ -104,11 +104,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termDisplayName.fullName',
-                    defaultMessage: 'Term display name',
+                    defaultMessage: 'Nome de Exibição do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termDisplayName.name',
-                    defaultMessage: 'Display name',
+                    defaultMessage: 'Nome de Exibição',
                   },
                 }),
                 required: true,
@@ -122,11 +122,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termName.fullName',
-                    defaultMessage: 'Term name',
+                    defaultMessage: 'Nome do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termName.name',
-                    defaultMessage: 'Name',
+                    defaultMessage: 'Nome',
                   },
                 }),
                 view: {
@@ -139,11 +139,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termType.fullName',
-                    defaultMessage: 'Term type',
+                    defaultMessage: 'Tipo do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termType.name',
-                    defaultMessage: 'Type',
+                    defaultMessage: 'Tipo',
                   },
                 }),
                 view: {
@@ -159,11 +159,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termFlag.fullName',
-                    defaultMessage: 'Term flag',
+                    defaultMessage: 'Indicador do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termFlag.name',
-                    defaultMessage: 'Flag',
+                    defaultMessage: 'Indicador',
                   },
                 }),
                 view: {
@@ -179,7 +179,7 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termStatus.fullName',
-                    defaultMessage: 'Term status',
+                    defaultMessage: 'Status do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termStatus.name',
@@ -199,11 +199,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termQualifier.fullName',
-                    defaultMessage: 'Term qualifier',
+                    defaultMessage: 'Qualificador do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termQualifier.name',
-                    defaultMessage: 'Qualifier',
+                    defaultMessage: 'Qualificador',
                   },
                 }),
                 view: {
@@ -216,11 +216,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termLanguage.fullName',
-                    defaultMessage: 'Term language',
+                    defaultMessage: 'Idioma do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termLanguage.name',
-                    defaultMessage: 'Language',
+                    defaultMessage: 'Idioma',
                   },
                 }),
                 view: {
@@ -237,11 +237,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termPrefForLang.fullName',
-                    defaultMessage: 'Term preferred for lang',
+                    defaultMessage: 'Termo Preferido para o Idioma',
                   },
                   name: {
                     id: 'field.citations_common.termPrefForLang.name',
-                    defaultMessage: 'Preferred for lang',
+                    defaultMessage: 'Preferido para o Idioma',
                   },
                 }),
                 view: {
@@ -254,11 +254,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termFullCitation.fullName',
-                    defaultMessage: 'Term full citation',
+                    defaultMessage: 'Citação Completa do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termFullCitation.name',
-                    defaultMessage: 'Full citation',
+                    defaultMessage: 'Citação Completa',
                   },
                 }),
                 view: {
@@ -271,11 +271,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termTitle.fullName',
-                    defaultMessage: 'Term title',
+                    defaultMessage: 'Título do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termTitle.name',
-                    defaultMessage: 'Title',
+                    defaultMessage: 'Título',
                   },
                 }),
                 view: {
@@ -288,11 +288,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termSubTitle.fullName',
-                    defaultMessage: 'Term subtitle',
+                    defaultMessage: 'Subtítulo do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termSubTitle.name',
-                    defaultMessage: 'Subtitle',
+                    defaultMessage: 'Subtítulo',
                   },
                 }),
                 view: {
@@ -305,11 +305,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termSectionTitle.fullName',
-                    defaultMessage: 'Term section title',
+                    defaultMessage: 'Título da Seção do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termSectionTitle.name',
-                    defaultMessage: 'Section title',
+                    defaultMessage: 'Título da Seção',
                   },
                 }),
                 view: {
@@ -322,7 +322,7 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termVolume.fullName',
-                    defaultMessage: 'Term volume',
+                    defaultMessage: 'Volume do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termVolume.name',
@@ -339,11 +339,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termIssue.fullName',
-                    defaultMessage: 'Term issue',
+                    defaultMessage: 'Edição do Termo',
                   },
                   name: {
                     id: 'field.citations_common.termIssue.name',
-                    defaultMessage: 'Issue',
+                    defaultMessage: 'Edição',
                   },
                 }),
                 view: {
@@ -356,15 +356,15 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termSource.fullName',
-                    defaultMessage: 'Term source name',
+                    defaultMessage: 'Nome da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.citations_common.termSource.groupName',
-                    defaultMessage: 'Source name',
+                    defaultMessage: 'Nome da Fonte',
                   },
                   name: {
                     id: 'field.citations_common.termSource.name',
-                    defaultMessage: 'Name',
+                    defaultMessage: 'Fonte',
                   },
                 }),
                 view: {
@@ -380,15 +380,15 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termSourceDetail.fullName',
-                    defaultMessage: 'Term source detail',
+                    defaultMessage: 'Detalhe da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.citations_common.termSourceDetail.groupName',
-                    defaultMessage: 'Source detail',
+                    defaultMessage: 'Detalhe da Fonte',
                   },
                   name: {
                     id: 'field.citations_common.termSourceDetail.name',
-                    defaultMessage: 'Detail',
+                    defaultMessage: 'Detalhe',
                   },
                 }),
                 view: {
@@ -401,11 +401,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termSourceID.fullName',
-                    defaultMessage: 'Term source ID',
+                    defaultMessage: 'ID da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.citations_common.termSourceID.groupName',
-                    defaultMessage: 'Source ID',
+                    defaultMessage: 'ID da Fonte',
                   },
                   name: {
                     id: 'field.citations_common.termSourceID.name',
@@ -422,15 +422,15 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.termSourceNote.fullName',
-                    defaultMessage: 'Term source note',
+                    defaultMessage: 'Nota da Fonte do Termo',
                   },
                   groupName: {
                     id: 'field.citations_common.termSourceNote.groupName',
-                    defaultMessage: 'Source note',
+                    defaultMessage: 'Nota da Fonte',
                   },
                   name: {
                     id: 'field.citations_common.termSourceNote.name',
-                    defaultMessage: 'Note',
+                    defaultMessage: 'Nota',
                   },
                 }),
                 view: {
@@ -451,7 +451,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.citations_common.citationRecordType.name',
-                  defaultMessage: 'Citation type',
+                  defaultMessage: 'Tipo de Citação',
                 },
               }),
               repeating: true,
@@ -475,7 +475,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.citations_common.citationPublicationInfoGroup.name',
-                  defaultMessage: 'Publication',
+                  defaultMessage: 'Publicação',
                 },
               }),
               repeating: true,
@@ -491,7 +491,7 @@ export default (configContext) => {
                 messages: defineMessages({
                   name: {
                     id: 'field.citations_common.publisher.name',
-                    defaultMessage: 'Publisher',
+                    defaultMessage: 'Editora',
                   },
                 }),
                 view: {
@@ -507,11 +507,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.publicationPlace.fullName',
-                    defaultMessage: 'Publication place',
+                    defaultMessage: 'Local de Publicação',
                   },
                   name: {
                     id: 'field.citations_common.publicationPlace.name',
-                    defaultMessage: 'Place',
+                    defaultMessage: 'Local',
                   },
                 }),
                 view: {
@@ -528,11 +528,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.publicationDate.fullName',
-                    defaultMessage: 'Publication date',
+                    defaultMessage: 'Data de Publicação',
                   },
                   name: {
                     id: 'field.citations_common.publicationDate.name',
-                    defaultMessage: 'Date',
+                    defaultMessage: 'Data',
                   },
                 }),
                 view: {
@@ -546,11 +546,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.edition.fullName',
-                    defaultMessage: 'Publication edition',
+                    defaultMessage: 'Edição da Publicação',
                   },
                   name: {
                     id: 'field.citations_common.edition.name',
-                    defaultMessage: 'Edition',
+                    defaultMessage: 'Edição',
                   },
                 }),
                 view: {
@@ -563,11 +563,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.pages.fullName',
-                    defaultMessage: 'Publication page(s)',
+                    defaultMessage: 'Página(s) da Publicação',
                   },
                   name: {
                     id: 'field.citations_common.pages.name',
-                    defaultMessage: 'Page(s)',
+                    defaultMessage: 'Página(s)',
                   },
                 }),
                 view: {
@@ -588,7 +588,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.citations_common.citationAgentInfoGroup.name',
-                  defaultMessage: 'Agent',
+                  defaultMessage: 'Agente',
                 },
               }),
               repeating: true,
@@ -604,11 +604,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.agent.fullName',
-                    defaultMessage: 'Agent name',
+                    defaultMessage: 'Nome do Agente',
                   },
                   name: {
                     id: 'field.citations_common.agent.name',
-                    defaultMessage: 'Name',
+                    defaultMessage: 'Nome',
                   },
                 }),
                 view: {
@@ -624,11 +624,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.role.fullName',
-                    defaultMessage: 'Agent role',
+                    defaultMessage: 'Papel do Agente',
                   },
                   name: {
                     id: 'field.citations_common.role.name',
-                    defaultMessage: 'Role',
+                    defaultMessage: 'Papel',
                   },
                 }),
                 view: {
@@ -644,11 +644,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.note.fullName',
-                    defaultMessage: 'Agent note',
+                    defaultMessage: 'Nota do Agente',
                   },
                   name: {
                     id: 'field.citations_common.note.name',
-                    defaultMessage: 'Note',
+                    defaultMessage: 'Nota',
                   },
                 }),
                 view: {
@@ -663,7 +663,7 @@ export default (configContext) => {
             messages: defineMessages({
               name: {
                 id: 'field.citations_common.citationNote.name',
-                defaultMessage: 'Note',
+                defaultMessage: 'Nota',
               },
             }),
             view: {
@@ -685,7 +685,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.citations_common.citationResourceIdentGroup.name',
-                  defaultMessage: 'Resource identifier',
+                  defaultMessage: 'Identificador de Recurso',
                 },
               }),
               repeating: true,
@@ -701,11 +701,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.resourceIdent.fullName',
-                    defaultMessage: 'Resource identifier',
+                    defaultMessage: 'Identificador de Recurso',
                   },
                   name: {
                     id: 'field.citations_common.resourceIdent.name',
-                    defaultMessage: 'Identifier',
+                    defaultMessage: 'Identificador',
                   },
                 }),
                 view: {
@@ -718,11 +718,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.type.fullName',
-                    defaultMessage: 'Resource identifier type',
+                    defaultMessage: 'Tipo de Identificador de Recurso',
                   },
                   name: {
                     id: 'field.citations_common.type.name',
-                    defaultMessage: 'Type',
+                    defaultMessage: 'Tipo',
                   },
                 }),
                 view: {
@@ -739,11 +739,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.captureDate.fullName',
-                    defaultMessage: 'Resource identifier capture date',
+                    defaultMessage: 'Data de Captura do Identificador de Recurso',
                   },
                   name: {
                     id: 'field.citations_common.captureDate.name',
-                    defaultMessage: 'Capture date',
+                    defaultMessage: 'Data de Captura',
                   },
                 }),
                 view: {
@@ -765,7 +765,7 @@ export default (configContext) => {
               messages: defineMessages({
                 name: {
                   id: 'field.citations_common.citationRelatedTermsGroup.name',
-                  defaultMessage: 'Related term',
+                  defaultMessage: 'Termo Relacionado',
                 },
               }),
               repeating: true,
@@ -781,11 +781,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.relatedTerm.fullName',
-                    defaultMessage: 'Related term',
+                    defaultMessage: 'Termo Relacionado',
                   },
                   name: {
                     id: 'field.citations_common.relatedTerm.name',
-                    defaultMessage: 'Term',
+                    defaultMessage: 'Termo',
                   },
                 }),
                 view: {
@@ -801,11 +801,11 @@ export default (configContext) => {
                 messages: defineMessages({
                   fullName: {
                     id: 'field.citations_common.relationType.fullName',
-                    defaultMessage: 'Related term type',
+                    defaultMessage: 'Tipo de Termo Relacionado',
                   },
                   name: {
                     id: 'field.citations_common.relationType.name',
-                    defaultMessage: 'Type',
+                    defaultMessage: 'Tipo',
                   },
                 }),
                 view: {

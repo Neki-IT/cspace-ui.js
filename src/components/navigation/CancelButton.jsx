@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'cancelButton.label',
     description: 'Default label of the cancel button.',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Cancelar',
   },
 });
 

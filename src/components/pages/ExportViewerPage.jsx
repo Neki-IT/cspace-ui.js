@@ -8,12 +8,12 @@ const messages = defineMessages({
   error: {
     id: 'exportViewerPage.error',
     description: 'Message displayed when an export invocation fails.',
-    defaultMessage: 'Error generating export: {error}',
+    defaultMessage: 'Erro ao gerar exportação: {error}',
   },
   loading: {
     id: 'exportViewerPage.loading',
     description: 'Message displayed when a export is loading.',
-    defaultMessage: 'Generating export…',
+    defaultMessage: 'Gerando exportação…',
   },
 });
 

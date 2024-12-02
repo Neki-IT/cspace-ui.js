@@ -10,7 +10,7 @@ const messages = defineMessages({
   label: {
     id: 'acceptSelectionButton.label',
     description: 'Label of the accept selection button.',
-    defaultMessage: 'Use selection',
+    defaultMessage: 'Usar seleção',
   },
 });
 

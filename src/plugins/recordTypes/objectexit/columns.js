@@ -12,7 +12,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.objectexit.default.exitNumber',
-            defaultMessage: 'Exit number',
+            defaultMessage: 'Número de Saída',
           },
         }),
         order: 10,
@@ -24,7 +24,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.objectexit.default.currentOwner',
-            defaultMessage: 'Current owner',
+            defaultMessage: 'Proprietário Atual',
           },
         }),
         order: 20,
@@ -36,7 +36,7 @@ export default (configContext) => {
         messages: defineMessages({
           label: {
             id: 'column.objectexit.default.updatedAt',
-            defaultMessage: 'Updated',
+            defaultMessage: 'Atualizado',
           },
         }),
         order: 30,

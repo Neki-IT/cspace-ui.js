@@ -13,17 +13,17 @@ const messages = defineMessages({
   true: {
     id: 'checkboxInput.true',
     description: 'The textual label of a true (checked) value in a checkbox input. Used when search criteria are displayed in search results, for fields that were rendered as checkboxes on the search form.',
-    defaultMessage: 'yes',
+    defaultMessage: 'sim',
   },
   false: {
     id: 'checkboxInput.false',
     description: 'The textual label of a false (unchecked) value in a checkbox input. Used when search criteria are displayed in search results, for fields that were rendered as checkboxes on the search form.',
-    defaultMessage: 'no',
+    defaultMessage: 'não',
   },
   indeterminate: {
     id: 'checkboxInput.indeterminate',
     description: 'The textual label of an indeterminate value in a checkbox input. Currently not used anywhere, but may be in the future.',
-    defaultMessage: 'indeterminate',
+    defaultMessage: 'indeterminado',
   },
 });
 

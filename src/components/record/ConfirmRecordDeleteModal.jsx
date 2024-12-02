@@ -17,37 +17,37 @@ const messages = defineMessages({
   title: {
     id: 'confirmRecordDeleteModal.title',
     description: 'Title of the modal shown to confirm deletion of a record.',
-    defaultMessage: 'Delete {recordName}',
+    defaultMessage: 'Excluir {recordName}',
   },
   prompt: {
     id: 'confirmRecordDeleteModal.prompt',
     description: 'The prompt shown to confirm deletion of a record.',
-    defaultMessage: 'Delete {title}?',
+    defaultMessage: 'Excluir {title}?',
   },
   hasRelations: {
     id: 'confirmRecordDeleteModal.hasRelations',
     description: 'The message shown in the confirm delete modal when the record to be deleted is related to other records.',
-    defaultMessage: 'This record is related to other records. Deleting this record will cause those relationships to be lost.',
+    defaultMessage: 'Este registro está relacionado a outros registros. Excluir este registro fará com que esses relacionamentos sejam perdidos.',
   },
   hasUses: {
     id: 'confirmRecordDeleteModal.hasUses',
     description: 'The message shown in the confirm delete modal when the record to be deleted is an authority item that is used by other records.',
-    defaultMessage: '{title} cannot be deleted because it is used by other records.',
+    defaultMessage: '{title} não pode ser excluído porque é usado por outros registros.',
   },
   hasRoleUses: {
     id: 'confirmRecordDeleteModal.hasRoleUses',
     description: 'The message shown in the confirm delete modal when the record to be deleted is a role that is used by user accounts.',
-    defaultMessage: '{title} cannot be deleted because it is associated with user accounts.',
+    defaultMessage: '{title} não pode ser excluído porque está associado a contas de usuário.',
   },
   hasHierarchy: {
     id: 'confirmRecordDeleteModal.hasHierarchy',
     description: 'The message shown in the confirm delete modal when the record to be deleted has broader or narrower relations.',
-    defaultMessage: '{title} cannot be deleted because it belongs to a hierarchy. To delete this record, first remove its broader and narrower records.',
+    defaultMessage: '{title} não pode ser excluído porque pertence a uma hierarquia. Para excluir este registro, primeiro remova seus registros mais amplos e mais estreitos.',
   },
   hasNarrowerHierarchy: {
     id: 'confirmRecordDeleteModal.hasNarrowerHierarchy',
     description: 'The message shown in the confirm delete modal when deletion of records with broader relations is allowed, but the record to be deleted has narrower relations.',
-    defaultMessage: '{title} cannot be deleted because it is a broader record in a hierarchy. To delete this record, first remove its narrower records.',
+    defaultMessage: '{title} não pode ser excluído porque é um registro mais amplo em uma hierarquia. Para excluir este registro, primeiro remova seus registros mais estreitos.',
   },
 });
 
