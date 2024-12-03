@@ -8,1222 +8,1220 @@
  */
 
 export default {
- // Content of the about page. This message is interpreted as HTML, so HTML rules apply. For example, newlines are ignored, and <, >, and & must be escaped.
-  "about.contentHTML": "<p> CollectionSpace é um aplicativo de gestão de coleções suportado pela comunidade para museus, sociedades históricas, coleções de ciências naturais e outros. </p>",
+  // Content of the about page. This message is interpreted as HTML, so HTML rules apply. For example, newlines are ignored, and <, >, and & must be escaped.
+  "about.contentHTML": "<p> CollectionSpace is a community-supported collections management application for museums, historical societies, natural science collections, and more. </p>",
 
   // Title of the about page.
-  "about.title": "Bem-vindo ao CollectionSpace",
+  "about.title": "Welcome to CollectionSpace",
 
   // Label of the accept selection button.
-  "acceptSelectionButton.label": "Usar seleção",
+  "acceptSelectionButton.label": "Use selection",
 
   // Label of the clear button on the search bar of the account (user) admin page.
-  "accountSearchBar.clear": "Limpar",
+  "accountSearchBar.clear": "Clear",
 
   // Label of the input on the search bar of the account (user) admin page.
-  "accountSearchBar.filter": "Filtrar por nome completo",
+  "accountSearchBar.filter": "Filter by full name",
 
   // Notification message displayed when a record is deleted successfully.
-  "action.record.deleted": "{hasTitle, select, yes {Deletado {title}} other {Registro deletado}}",
+  "action.record.deleted": "{hasTitle, select, yes {Deleted {title}} other {Deleted record}}",
 
   // Notification message displayed when a record is being deleted.
-  "action.record.deleting": "{hasTitle, select, yes {Deletando {title}…} other {Deletando registro…}}",
+  "action.record.deleting": "{hasTitle, select, yes {Deleting {title}…} other {Deleting record…}}",
 
   // Notification message displayed when a record delete fails.
-  "action.record.errorDeleting": "{hasTitle, select, yes {Erro ao deletar {title}: {error}} other {Erro ao deletar registro: {error}}}",
+  "action.record.errorDeleting": "{hasTitle, select, yes {Error deleting {title}: {error}} other {Error deleting record: {error}}}",
 
   // Notification message displayed when a role save fails because of a duplicate name.
-  "action.record.errorDupRoleName": "Erro ao salvar {title}: Já existe um papel com este nome. Escolha outro nome.",
+  "action.record.errorDupRoleName": "Error saving {title}: A role already exists with this name. Please choose a different name.",
 
   // Notification message displayed when a record save fails and there is no more specific message.
-  "action.record.errorSaving": "{hasTitle, select, yes {Erro ao salvar {title}: {error}} other {Erro ao salvar registro: {error}}}",
+  "action.record.errorSaving": "{hasTitle, select, yes {Error saving {title}: {error}} other {Error saving record: {error}}}",
 
   // Notification message displayed when a record is saved successfully.
-  "action.record.saved": "{hasTitle, select, yes {Salvo {title}} other {Registro salvo}}",
+  "action.record.saved": "{hasTitle, select, yes {Saved {title}} other {Saved record}}",
 
   // Notification message displayed when a record is being saved.
-  "action.record.saving": "{hasTitle, select, yes {Salvando {title}…} other {Salvando registro…}}",
+  "action.record.saving": "{hasTitle, select, yes {Saving {title}…} other {Saving record…}}",
 
   // Notification message displayed when a delete workflow transition (soft-delete) fails.
-  "action.record.transition.delete.errorTransitioning": "{hasTitle, select, yes {Erro ao deletar {title}: {error}} other {Erro ao deletar registro: {error}}}",
+  "action.record.transition.delete.errorTransitioning": "{hasTitle, select, yes {Error deleting {title}: {error}} other {Error deleting record: {error}}}",
 
   // Notification message displayed when a delete workflow transition (soft-delete) completes successfully.
-  "action.record.transition.delete.transitioned": "{hasTitle, select, yes {Deletado {title}} other {Registro deletado}}",
+  "action.record.transition.delete.transitioned": "{hasTitle, select, yes {Deleted {title}} other {Deleted record}}",
 
   // Notification message displayed when a delete workflow transition (soft-delete) is in progress.
-  "action.record.transition.delete.transitioning": "{hasTitle, select, yes {Deletando {title}…} other {Deletando registro…}}",
-
+  "action.record.transition.delete.transitioning": "{hasTitle, select, yes {Deleting {title}…} other {Deleting record…}}",
 
   // Notification message displayed when a lock workflow transition fails.
-  "action.record.transition.lock.errorTransitioning": "{hasTitle, select, yes {Erro ao bloquear {title}: {error}} other {Erro ao bloquear registro: {error}}}",
+  "action.record.transition.lock.errorTransitioning": "{hasTitle, select, yes {Error locking {title}: {error}} other {Error locking record: {error}}}",
 
   // Notification message displayed when a lock workflow transition completes successfully.
-  "action.record.transition.lock.transitioned": "{hasTitle, select, yes {Bloqueado {title}} other {Registro bloqueado}}",
+  "action.record.transition.lock.transitioned": "{hasTitle, select, yes {Locked {title}} other {Locked record}}",
 
   // Notification message displayed when a lock workflow transition is in progress.
-  "action.record.transition.lock.transitioning": "{hasTitle, select, yes {Bloqueando {title}…} other {Bloqueando registro…}}",
+  "action.record.transition.lock.transitioning": "{hasTitle, select, yes {Locking {title}…} other {Locking record…}}",
 
   // Message shown when relating multiple records fails.
-  "action.relation.batchCreateError": "Alguns registros não puderam ser relacionados: {error}",
+  "action.relation.batchCreateError": "Some records could not be related: {error}",
 
   // Message shown when unrelating multiple records fails.
-  "action.relation.batchUnrelateError": "Alguns registros não puderam ser desvinculados: {error}",
+  "action.relation.batchUnrelateError": "Some records could not be unrelated: {error}",
 
   // Notification message displayed when records are related successfully.
-  "action.relation.related": "{objectCount, plural, =0 {Nenhum registro} one {# registro} other {# registros}} relacionados a {subjectTitle}.",
+  "action.relation.related": "{objectCount, plural, =0 {No records} one {# record} other {# records}} related to {subjectTitle}.",
 
-  "adminNavBar.account": "Usuários",
+  "adminNavBar.account": "Users",
 
-  "adminNavBar.authrole": "Papéis e Permissões",
+  "adminNavBar.authrole": "Roles and Permissions",
 
-  "adminPage.title": "Administração",
+  "adminPage.title": "Administration",
 
-  "advancedSearchBuilder.title": "Busca Avançada",
+  "advancedSearchBuilder.title": "Advanced Search",
 
   // Label of the clear button on the search bar of the role admin page.
-  "authRoleSearchBar.clear": "Limpar",
+  "authRoleSearchBar.clear": "Clear",
 
   // Label of the input on the search bar of the role admin page.
-  "authRoleSearchBar.filter": "Filtrar por nome",
+  "authRoleSearchBar.filter": "Filter by name",
 
   // Message displayed in the autocomplete input dropdown to prompt a user to add a new term.
-  "autocompleteInputContainer.addPrompt": "Adicionar \"{displayName}\" a {destinationName}",
+  "autocompleteInputContainer.addPrompt": "Add \"{displayName}\" to {destinationName}",
 
   // Label of the clone option shown in the autocomplete input dropdown.
-  "autocompleteInputContainer.cloneOptionLabel": "Clonar registro atual",
+  "autocompleteInputContainer.cloneOptionLabel": "Clone current record",
 
   // Message displayed in the autocomplete input dropdown when filtering options.
-  "autocompleteInputContainer.count": "{count, plural, =0 {Nenhum termo correspondente} one {# termo correspondente} other {# termos correspondentes}} encontrados",
+  "autocompleteInputContainer.count": "{count, plural, =0 {No matching terms} one {# matching term} other {# matching terms}} found",
 
   // Label of the create new option shown in the autocomplete input dropdown.
-  "autocompleteInputContainer.createNewOptionLabel": "Criar novo registro",
+  "autocompleteInputContainer.createNewOptionLabel": "Create new record",
 
   // Message displayed in the autocomplete input dropdown when more characters must be typed in order to begin matching.
-  "autocompleteInputContainer.moreCharsRequired": "Continue digitando para encontrar termos correspondentes",
+  "autocompleteInputContainer.moreCharsRequired": "Continue typing to find matching terms",
 
   // Label of the back button.
-  "backButton.label": "Voltar",
+  "backButton.label": "Back",
 
   // Notification message shown when a batch job has completed.
-  "batch.complete": "Concluído {name}: {numAffected, plural, =0 {Nenhum registro} one {# registro} other {# registros}} afetados. {userNote}",
+  "batch.complete": "Completed {name}: {numAffected, plural, =0 {No records} one {# record} other {# records}} affected. {userNote}",
 
   // Notification message shown when a batch job fails.
-  "batch.error": "Erro ao executar {name}: {error}",
+  "batch.error": "Error running {name}: {error}",
 
   // Notification message shown when a batch job is running.
-  "batch.running": "Executando {name}…",
+  "batch.running": "Running {name}…",
 
-  // Label of the button to add a new boolean constraint to a boolean search.
-  "booleanConditionInput.addBoolean.label": "+ Qualquer/Todas",
+  // Label of the button to add a new boolean constraint to a boolean search
+  "booleanConditionInput.addBoolean.label": "+ Any/All",
 
-  // Label of the button to add a new field constraint to a boolean search.
-  "booleanConditionInput.addField.label": "+ Campo",
+  // Label of the button to add a new field constraint to a boolean search
+  "booleanConditionInput.addField.label": "+ Field",
 
-  // Label of the button to add a new group constraint to a boolean search.
-  "booleanConditionInput.addGroup.label": "+ Grupo",
+  // Label of the button to add a new group constraint to a boolean search
+  "booleanConditionInput.addGroup.label": "+ Group",
 
-  "booleanConditionInput.and.label": "e",
+  "booleanConditionInput.and.label": "and",
 
-  "booleanConditionInput.and.opSelectorLabel": "Todas",
+  "booleanConditionInput.and.opSelectorLabel": "All",
 
-  "booleanConditionInput.opSelector.label": "{opSelectorInput} das condições seguintes {operator, select, and {devem} or {podem}} ser satisfeitas:",
+  "booleanConditionInput.opSelector.label": "{opSelectorInput} of the following conditions {operator, select, and {must} or {may}} be satisfied:",
 
-  "booleanConditionInput.or.label": "ou",
+  "booleanConditionInput.or.label": "or",
 
-  "booleanConditionInput.or.opSelectorLabel": "Qualquer",
+  "booleanConditionInput.or.opSelectorLabel": "Any",
 
   // Default label of the cancel button.
-  "cancelButton.label": "Cancelar",
+  "cancelButton.label": "Cancel",
 
-  // The textual label of a false (unchecked) value in a checkbox input. 
-  "checkboxInput.false": "não",
+  // The textual label of a false (unchecked) value in a checkbox input. Used when search criteria are displayed in search results, for fields that were rendered as checkboxes on the search form.
+  "checkboxInput.false": "no",
 
-  // The textual label of an indeterminate value in a checkbox input. 
-  "checkboxInput.indeterminate": "indeterminado",
+  // The textual label of an indeterminate value in a checkbox input. Currently not used anywhere, but may be in the future.
+  "checkboxInput.indeterminate": "indeterminate",
 
-  // The textual label of a true (checked) value in a checkbox input. 
-  "checkboxInput.true": "sim",
+  // The textual label of a true (checked) value in a checkbox input. Used when search criteria are displayed in search results, for fields that were rendered as checkboxes on the search form.
+  "checkboxInput.true": "yes",
 
   // Label of the clone button.
-  "cloneButton.label": "Clonar",
+  "cloneButton.label": "Clone",
 
   // Label of the close button.
-  "closeButton.label": "Fechar",
+  "closeButton.label": "Close",
 
-  "column.account.default.screenName": "Nome Completo",
+  "column.account.default.screenName": "Full Name",
 
   "column.account.default.status": "Status",
 
-  "column.acquisition.default.acquisitionReferenceNumber": "Número de Referência",
+  "column.acquisition.default.acquisitionReferenceNumber": "Reference number",
 
-  "column.acquisition.default.acquisitionSource": "Fonte de Aquisição",
+  "column.acquisition.default.acquisitionSource": "Acquisition source",
 
-  "column.acquisition.default.updatedAt": "Atualizado",
+  "column.acquisition.default.updatedAt": "Updated",
 
-  "column.all.default.docName": "Resumo",
+  "column.all.default.docName": "Summary",
 
-  "column.all.default.docNumber": "Registro",
+  "column.all.default.docNumber": "Record",
 
-  "column.all.default.docType": "Tipo",
+  "column.all.default.docType": "Type",
 
-  "column.all.default.updatedAt": "Atualizado",
+  "column.all.default.updatedAt": "Updated",
 
-  "column.audit.default.updatedAt": "Atualizado",
+  "column.audit.default.updatedAt": "Updated",
 
-  "column.audit.default.updatedBy": "Por",
+  "column.audit.default.updatedBy": "By",
 
   "column.authority.default.docName": "Item",
 
-  "column.authority.default.docType": "Tipo",
+  "column.authority.default.docType": "Type",
 
-  "column.authority.default.updatedAt": "Atualizado",
+  "column.authority.default.updatedAt": "Updated",
 
-  "column.authority.default.vocabulary": "Vocabulário",
+  "column.authority.default.vocabulary": "Vocabulary",
 
-  "column.authRole.default.displayName": "Nome",
+  "column.authRole.default.displayName": "Name",
 
-  "column.batch.default.name": "Nome",
+  "column.batch.default.name": "Name",
 
-  "column.chronology.default.termDisplayName": "Nome de Exibição",
+  "column.chronology.default.termDisplayName": "Display name",
 
-  "column.chronology.default.termStatus": "Status do Termo",
+  "column.chronology.default.termStatus": "Term status",
 
-  "column.chronology.default.vocabulary": "Vocabulário",
+  "column.chronology.default.vocabulary": "Vocabulary",
 
-  "column.chronology.search.updatedAt": "Atualizado",
+  "column.chronology.search.updatedAt": "Updated",
 
-  "column.citation.default.termDisplayName": "Nome de Exibição",
+  "column.citation.default.termDisplayName": "Display name",
 
-  "column.citation.default.termStatus": "Status do Termo",
+  "column.citation.default.termStatus": "Term status",
 
-  "column.citation.default.vocabulary": "Vocabulário",
+  "column.citation.default.vocabulary": "Vocabulary",
 
-  "column.citation.search.updatedAt": "Atualizado",
+  "column.citation.search.updatedAt": "Updated",
 
-  "column.collectionobject.default.objectNumber": "Número de Identificação",
+  "column.collectionobject.default.objectNumber": "Identification number",
 
-  "column.collectionobject.default.title": "Título",
+  "column.collectionobject.default.title": "Title",
 
-  "column.collectionobject.default.updatedAt": "Atualizado",
+  "column.collectionobject.default.updatedAt": "Updated",
 
   "column.collectionobject.narrow.objectNumber": "ID",
 
-  "column.collectionobject.narrow.title": "Título",
+  "column.collectionobject.narrow.title": "Title",
 
-  "column.collectionobject.narrow.updatedAt": "Atualizado",
+  "column.collectionobject.narrow.updatedAt": "Updated",
 
-  "column.concept.default.termDisplayName": "Nome de Exibição",
+  "column.concept.default.termDisplayName": "Display name",
 
-  "column.concept.default.termStatus": "Status do Termo",
+  "column.concept.default.termStatus": "Term status",
 
-  "column.concept.default.vocabulary": "Vocabulário",
+  "column.concept.default.vocabulary": "Vocabulary",
 
-  "column.concept.search.updatedAt": "Atualizado",
+  "column.concept.search.updatedAt": "Updated",
 
-  "column.conditioncheck.default.condition": "Condição",
+  "column.conditioncheck.default.condition": "Condition",
 
-  "column.conditioncheck.default.conditionCheckRefNumber": "Número de Referência",
+  "column.conditioncheck.default.conditionCheckRefNumber": "Reference number",
 
-  "column.conditioncheck.default.updatedAt": "Atualizado",
+  "column.conditioncheck.default.updatedAt": "Updated",
 
-  "column.conservation.default.conservationNumber": "Número de Referência",
+  "column.conservation.default.conservationNumber": "Reference number",
 
   "column.conservation.default.status": "Status",
 
-  "column.conservation.default.updatedAt": "Atualizado",
+  "column.conservation.default.updatedAt": "Updated",
 
-  "column.exhibition.default.exhibitionNumber": "Número da Exibição",
+  "column.exhibition.default.exhibitionNumber": "Exhibition number",
 
-  "column.exhibition.default.title": "Título",
+  "column.exhibition.default.title": "Title",
 
-  "column.exhibition.default.updatedAt": "Atualizado",
+  "column.exhibition.default.updatedAt": "Updated",
 
-  "column.group.default.owner": "Proprietário",
+  "column.exhibition.default.updatedAt": "Updated",
 
-  "column.group.default.title": "Título",
+  "column.group.default.owner": "Owner",
 
-  "column.group.default.updatedAt": "Atualizado",
+  "column.group.default.title": "Title",
 
-  "column.insurance.default.insuranceIndemnityReferenceNumber": "Número de Referência do Seguro/Indenização",
+  "column.group.default.updatedAt": "Updated",
 
-  "column.insurance.default.insurerIndemnifier": "Seguradora/Indenizadora",
+  "column.insurance.default.insuranceIndemnityReferenceNumber": "Reference number",
 
-  "column.insurance.default.updatedAt": "Atualizado",
+  "column.insurance.default.insurerIndemnifier": "Insurer/indemnifier",
 
-  "column.intake.default.currentOwner": "Proprietário Atual",
+  "column.insurance.default.updatedAt": "Updated",
 
-  "column.intake.default.entryNumber": "Número de Entrada",
+  "column.intake.default.currentOwner": "Current owner",
 
-  "column.intake.default.updatedAt": "Atualizado",
+  "column.intake.default.entryNumber": "Entry number",
 
-  "column.iterationreport.default.iterationIdentificationNumber": "Número de Identificação da Iteração",
+  "column.intake.default.updatedAt": "Updated",
 
-  "column.iterationreport.default.updatedAt": "Atualizado",
+  "column.iterationreport.default.iterationIdentificationNumber": "Identification number",
 
-    "column.loanin.default.lender": "Credor",
+  "column.iterationreport.default.updatedAt": "Updated",
 
-  "column.loanin.default.loanInNumber": "Número do Empréstimo Recebido",
+  "column.loanin.default.lender": "Lender",
 
-  "column.loanin.default.updatedAt": "Atualizado",
+  "column.loanin.default.loanInNumber": "Loan in number",
 
-  "column.loanout.default.borrower": "Devedor",
+  "column.loanin.default.updatedAt": "Updated",
 
-  "column.loanout.default.loanOutNumber": "Número do Empréstimo Enviado",
+  "column.loanout.default.borrower": "Borrower",
 
-  "column.loanout.default.updatedAt": "Atualizado",
+  "column.loanout.default.loanOutNumber": "Loan out number",
 
-  "column.location.default.termDisplayName": "Nome de Exibição",
+  "column.loanout.default.updatedAt": "Updated",
 
-  "column.location.default.termStatus": "Status do Termo",
+  "column.location.default.termDisplayName": "Display name",
 
-  "column.location.default.vocabulary": "Vocabulário",
+  "column.location.default.termStatus": "Term status",
 
-  "column.location.search.updatedAt": "Atualizado",
+  "column.location.default.vocabulary": "Vocabulary",
 
-  "column.media.default.blobCsid": "Miniatura",
+  "column.location.search.updatedAt": "Updated",
 
-  "column.media.default.identificationNumber": "Número de Identificação",
+  "column.media.default.blobCsid": "Thumbnail",
 
-  "column.media.default.title": "Título",
+  "column.media.default.identificationNumber": "Identification number",
 
-  "column.media.default.updatedAt": "Atualizado",
+  "column.media.default.title": "Title",
 
-  "column.movement.default.currentLocation": "Localização Atual",
+  "column.media.default.updatedAt": "Updated",
 
-  "column.movement.default.locationDate": "Data da Localização",
+  "column.movement.default.currentLocation": "Current location",
 
-  "column.movement.default.movementReferenceNumber": "Número de Referência do Movimento",
+  "column.movement.default.locationDate": "Location date",
 
-  "column.movement.default.updatedAt": "Atualizado",
+  "column.movement.default.movementReferenceNumber": "Reference number",
 
-  "column.object.default.docName": "Resumo",
+  "column.movement.default.updatedAt": "Updated",
 
-  "column.object.default.docNumber": "Registro",
+  "column.object.default.docName": "Summary",
 
-  "column.object.default.docType": "Tipo",
+  "column.object.default.docNumber": "Record",
 
-  "column.object.default.updatedAt": "Atualizado",
+  "column.object.default.docType": "Type",
 
-  "column.object.search.updatedAt": "Atualizado",
+  "column.object.default.updatedAt": "Updated",
 
-  "column.objectexit.default.currentOwner": "Proprietário Atual",
+  "column.object.search.updatedAt": "Updated",
 
-  "column.objectexit.default.exitNumber": "Número de Saída",
+  "column.objectexit.default.currentOwner": "Current owner",
 
-  "column.objectexit.default.updatedAt": "Atualizado",
+  "column.objectexit.default.exitNumber": "Exit number",
 
-  "column.organization.default.termDisplayName": "Nome de Exibição",
+  "column.objectexit.default.updatedAt": "Updated",
 
-  "column.organization.default.termStatus": "Status do Termo",
+  "column.organization.default.termDisplayName": "Display name",
 
-  "column.organization.default.vocabulary": "Vocabulário",
+  "column.organization.default.termStatus": "Term status",
 
-  "column.organization.search.updatedAt": "Atualizado",
+  "column.organization.default.vocabulary": "Vocabulary",
 
-  "column.person.default.foreName": "Primeiro Nome",
+  "column.organization.search.updatedAt": "Updated",
 
-  "column.person.default.surName": "Sobrenome",
+  "column.person.default.foreName": "Forename",
 
-  "column.person.default.termDisplayName": "Nome de Exibição",
+  "column.person.default.surName": "Surname",
 
-  "column.person.default.vocabulary": "Vocabulário",
+  "column.person.default.termDisplayName": "Display name",
 
-  "column.place.default.termDisplayName": "Nome de Exibição",
+  "column.person.default.vocabulary": "Vocabulary",
 
-  "column.place.default.termStatus": "Status do Termo",
+  "column.place.default.termDisplayName": "Display name",
 
-  "column.place.default.vocabulary": "Vocabulário",
+  "column.place.default.termStatus": "Term status",
 
-  "column.place.search.updatedAt": "Atualizado",
+  "column.place.default.vocabulary": "Vocabulary",
 
-  "column.procedure.default.docName": "Resumo",
+  "column.place.search.updatedAt": "Updated",
 
-  "column.procedure.default.docNumber": "Registro",
+  "column.procedure.default.docName": "Summary",
 
-  "column.procedure.default.docType": "Tipo",
+  "column.procedure.default.docNumber": "Record",
 
-  "column.procedure.default.updatedAt": "Atualizado",
+  "column.procedure.default.docType": "Type",
 
-  "column.refs.default.docName": "Resumo",
+  "column.procedure.default.updatedAt": "Updated",
 
-  "column.refs.default.docNumber": "Registro",
+  "column.refs.default.docName": "Summary",
 
-  "column.refs.default.docType": "Tipo",
+  "column.refs.default.docNumber": "Record",
 
-  "column.refs.default.sourceField": "Campo",
+  "column.refs.default.docType": "Type",
 
-  "column.refs.narrow.docName": "Resumo",
+  "column.refs.default.sourceField": "Field",
 
-  "column.refs.narrow.docNumber": "Registro",
+  "column.refs.narrow.docName": "Summary",
 
-  "column.refs.narrow.docType": "Tipo",
+  "column.refs.narrow.docNumber": "Record",
 
-  "column.refs.narrow.sourceField": "Campo",
+  "column.refs.narrow.docType": "Type",
 
-  "column.report.default.name": "Nome",
+  "column.refs.narrow.sourceField": "Field",
 
-  "column.terms.itemDisplayName": "Termo",
+  "column.report.default.name": "Name",
 
-  "column.terms.sourceField": "Campo",
+  "column.terms.itemDisplayName": "Term",
 
-  "column.terms.type": "Tipo",
+  "column.terms.sourceField": "Field",
 
-  "column.terms.vocabulary": "Vocabulário",
+  "column.terms.type": "Type",
 
-  "column.transport.default.transporter": "Transportador",
+  "column.terms.vocabulary": "Vocabulary",
 
-  "column.transport.default.transportReferenceNumber": "Número de Referência do Transporte",
+  "column.transport.default.transporter": "Transporter",
 
-  "column.transport.default.updatedAt": "Atualizado",
+  "column.transport.default.transportReferenceNumber": "Transport reference number",
 
-  "column.uoc.default.authorizedBy": "Autorizado por",
+  "column.transport.default.updatedAt": "Updated",
 
-  "column.uoc.default.referenceNumber": "Número de Referência",
+  "column.uoc.default.authorizedBy": "Authorized by",
 
-  "column.uoc.default.title": "Título",
+  "column.uoc.default.referenceNumber": "Reference number",
 
-  "column.valuation.default.updatedAt": "Atualizado",
+  "column.uoc.default.title": "Title",
 
-  "column.valuation.default.valuationcontrolRefNumber": "Número de Referência do Controle de Avaliação",
+  "column.valuation.default.updatedAt": "Updated",
 
-  "column.valuation.default.valueType": "Tipo",
+  "column.valuation.default.valuationcontrolRefNumber": "Reference number",
 
-  "column.vocabulary.default.displayName": "Nome",
+  "column.valuation.default.valueType": "Type",
 
-  "column.work.default.termDisplayName": "Nome de Exibição",
+  "column.vocabulary.default.displayName": "Name",
 
-  "column.work.default.termStatus": "Status do Termo",
+  "column.work.default.termDisplayName": "Display name",
 
-  "column.work.default.vocabulary": "Vocabulário",
+  "column.work.default.termStatus": "Term status",
 
-  "column.work.search.updatedAt": "Atualizado",
+  "column.work.default.vocabulary": "Vocabulary",
 
-    // The message shown in the confirm delete modal when the record to be deleted has broader or narrower relations.
-  "confirmRecordDeleteModal.hasHierarchy": "{title} não pode ser excluído porque pertence a uma hierarquia. Para excluir este registro, primeiro remova seus registros mais amplos e mais estreitos.",
+  "column.work.search.updatedAt": "Updated",
+
+  // The message shown in the confirm delete modal when the record to be deleted has broader or narrower relations.
+  "confirmRecordDeleteModal.hasHierarchy": "{title} cannot be deleted because it belongs to a hierarchy. To delete this record, first remove its broader and narrower records.",
 
   // The message shown in the confirm delete modal when deletion of records with broader relations is allowed, but the record to be deleted has narrower relations.
-  "confirmRecordDeleteModal.hasNarrowerHierarchy": "{title} não pode ser excluído porque é um registro mais amplo em uma hierarquia. Para excluir este registro, primeiro remova seus registros mais estreitos.",
+  "confirmRecordDeleteModal.hasNarrowerHierarchy": "{title} cannot be deleted because it is a broader record in a hierarchy. To delete this record, first remove its narrower records.",
 
   // The message shown in the confirm delete modal when the record to be deleted is related to other records.
-  "confirmRecordDeleteModal.hasRelations": "Este registro está relacionado a outros registros. Excluir este registro fará com que esses relacionamentos sejam perdidos.",
+  "confirmRecordDeleteModal.hasRelations": "This record is related to other records. Deleting this record will cause those relationships to be lost.",
 
   // The message shown in the confirm delete modal when the record to be deleted is a role that is used by user accounts.
-  "confirmRecordDeleteModal.hasRoleUses": "{title} não pode ser excluído porque está associado a contas de usuário.",
+  "confirmRecordDeleteModal.hasRoleUses": "{title} cannot be deleted because it is associated with user accounts.",
 
   // The message shown in the confirm delete modal when the record to be deleted is an authority item that is used by other records.
-  "confirmRecordDeleteModal.hasUses": "{title} não pode ser excluído porque é usado por outros registros.",
+  "confirmRecordDeleteModal.hasUses": "{title} cannot be deleted because it is used by other records.",
 
   // The prompt shown to confirm deletion of a record.
-  "confirmRecordDeleteModal.prompt": "Excluir {title}?",
+  "confirmRecordDeleteModal.prompt": "Delete {title}?",
 
   // Title of the modal shown to confirm deletion of a record.
-  "confirmRecordDeleteModal.title": "Excluir {recordName}",
+  "confirmRecordDeleteModal.title": "Delete {recordName}",
 
   // Label of the cancel button in the confirm navigation modal.
-  "confirmRecordNavigationModal.cancel": "Não sair",
+  "confirmRecordNavigationModal.cancel": "Don't leave",
 
   // The prompt shown to confirm navigation away from a record that has unsaved changes.
-  "confirmRecordNavigationModal.prompt": "Você está prestes a sair de um registro que tem alterações não salvas.",
+  "confirmRecordNavigationModal.prompt": "You're about to leave a record that has unsaved changes.",
 
   // Label of the revert button in the confirm navigation modal.
-  "confirmRecordNavigationModal.revert": "Reverter e continuar",
+  "confirmRecordNavigationModal.revert": "Revert and continue",
 
   // Label of the save button in the confirm navigation modal.
-  "confirmRecordNavigationModal.save": "Salvar e continuar",
+  "confirmRecordNavigationModal.save": "Save and continue",
 
   // Title of the modal shown to confirm navigation away from a record that has unsaved changes.
-  "confirmRecordNavigationModal.title": "Sair do Registro?",
+  "confirmRecordNavigationModal.title": "Leave Record?",
 
   // The prompt shown to confirm unrelating a record.
-  "confirmRecordUnrelateModal.prompt": "Desvincular {title} do registro principal?",
+  "confirmRecordUnrelateModal.prompt": "Unrelate {title} from the primary record?",
 
   // The prompt shown to confirm unrelating multiple selected records.
-  "confirmRecordUnrelateModal.promptMultiple": "Desvincular {recordCount, plural, one {o registro selecionado} other {# registros selecionados}} do registro principal?",
+  "confirmRecordUnrelateModal.promptMultiple": "Unrelate {recordCount, plural, one {the selected record} other {# selected records}} from the primary record?",
 
   // Title of the modal shown to confirm unrelating a record.
-  "confirmRecordUnrelateModal.title": "Desvincular {recordName}",
+  "confirmRecordUnrelateModal.title": "Unrelate {recordName}",
 
   // The message displayed in the unrelate modal when unrelating is in progress.
-  "confirmRecordUnrelateModal.unrelating": "Desvinculando...",
+  "confirmRecordUnrelateModal.unrelating": "Unrelating...",
 
-  "contentViewer.error": "Pré-visualização indisponível",
+  "contentViewer.error": "Preview not available",
 
-  "contentViewer.pending": "Pré-visualização do arquivo",
+  "contentViewer.pending": "File preview",
 
-  "contentViewer.previewTitle": "Pré-visualização do arquivo",
+  "contentViewer.previewTitle": "File preview",
 
   // Label of the create button.
-  "createButton.label": "Criar novo",
+  "createButton.label": "Create new",
 
-  "createPage.authority": "Autoridades",
+  "createPage.authority": "Authorities",
 
-  "createPage.object": "Objetos",
+  "createPage.object": "Objects",
 
-  "createPage.procedure": "Procedimentos",
+  "createPage.procedure": "Procedures",
 
-  "createPage.title": "Criar Novo",
+  "createPage.title": "Create New",
 
   // Title of the recent records panel on the dashboard page.
-  "dashboardPage.recentPanelTitle": "Registros Atualizados nos Últimos 7 Dias",
+  "dashboardPage.recentPanelTitle": "Records Updated in Last 7 Days",
 
   // Title of the dashboard page.
-  "dashboardPage.title": "Minha CollectionSpace",
+  "dashboardPage.title": "My CollectionSpace",
 
   // The value of a datetime field.
   "dateTimeInputContainer.value": "{date} {time}",
 
   // Label of the delete button.
-  "deleteButton.label": "Excluir",
+  "deleteButton.label": "Delete",
 
   // Label of the deprecate button.
-  "deprecateButton.label": "Desativar",
+  "deprecateButton.label": "Deactivate",
 
-  "errorPage.ERR_INVALID_CSID": "\"{csid}\" não é um CSID válido.",
+  "errorPage.ERR_INVALID_CSID": "\"{csid}\" is not a valid CSID.",
 
-  "errorPage.ERR_INVALID_RELATED_TYPE": "O tipo de registro \"{recordType}\" não tem um tipo relacionado \"{relatedRecordType}\".",
+  "errorPage.ERR_INVALID_RELATED_TYPE": "The record type \"{recordType}\" does not have a related type \"{relatedRecordType}\".",
 
-  "errorPage.ERR_MISSING_VOCABULARY": "Um vocabulário deve ser especificado para o tipo de registro de autoridade \"{recordType}\".",
+  "errorPage.ERR_MISSING_VOCABULARY": "A vocabulary must be specified for the authority record type \"{recordType}\".",
 
-  "errorPage.ERR_NOT_ALLOWED": "Você não tem permissão para visualizar este tipo de registro.",
+  "errorPage.ERR_NOT_ALLOWED": "You're not allowed to view this type of record.",
 
-  "errorPage.ERR_NOT_FOUND": "O registro que você está procurando parece não existir.",
+  "errorPage.ERR_NOT_FOUND": "The record you're looking for doesn't seem to exist.",
 
-  "errorPage.ERR_UNKNOWN_RECORD_TYPE": "Não há tipo de registro chamado \"{recordType}\".",
+  "errorPage.ERR_UNKNOWN_RECORD_TYPE": "There is no record type named \"{recordType}\".",
 
-  "errorPage.ERR_UNKNOWN_SUBRESOURCE": "Não há sub-recurso chamado \"{subresource}\".",
+  "errorPage.ERR_UNKNOWN_SUBRESOURCE": "There is no subresource named \"{subresource}\".",
 
-  "errorPage.ERR_UNKNOWN_VOCABULARY": "Não há vocabulário chamado \"{vocabulary}\" para o tipo de registro \"{recordType}\".",
+  "errorPage.ERR_UNKNOWN_VOCABULARY": "There is no vocabulary named \"{vocabulary}\" for the record type \"{recordType}\".",
 
-  "errorPage.error": "Código de erro: {code}",
+  "errorPage.error": "Error code: {code}",
 
-  "errorPage.title": "Página Não Encontrada",
+  "errorPage.title": "Page Not Found",
 
   // Notification message shown when an export fails.
-  "export.error": "Erro ao gerar exportação: {error}",
+  "export.error": "Error generating export: {error}",
 
   // Label of the export button.
-  "exportButton.label": "Exportar…",
+  "exportButton.label": "Export…",
 
-    // Prompt message in the field editor for exports.
-  "exportFieldEditor.prompt": "Selecione os campos a serem incluídos.",
+  // Prompt message in the field editor for exports.
+  "exportFieldEditor.prompt": "Select fields to include.",
 
   // Label of the cancel button in the export modal.
-  "exportModal.cancel": "Cancelar",
+  "exportModal.cancel": "Cancel",
 
   // Label of the export button in the export modal.
-  "exportModal.export": "Exportar",
+  "exportModal.export": "Export",
 
-  "exportModal.label": "Exportar",
+  "exportModal.label": "Export",
 
-  "exportModal.title": "Exportar como CSV",
+  "exportModal.title": "Export as CSV",
 
   // Message displayed when an export invocation fails.
-  "exportViewerPage.error": "Erro ao gerar exportação: {error}",
+  "exportViewerPage.error": "Error generating export: {error}",
 
-  // Message displayed when an export is loading.
-  "exportViewerPage.loading": "Gerando exportação…",
+  // Message displayed when a export is loading.
+  "exportViewerPage.loading": "Generating export…",
 
-  "field.account.role.name": "Papéis",
+  "field.account.role.name": "Roles",
 
   // Message to display when the email is invalid on the user account form.
-  "field.accounts_common.email.errorInvalidEmail": "O email não é um endereço válido. Corrija o valor {value}.",
+  "field.accounts_common.email.errorInvalidEmail": "Email is not a valid address. Correct the value {value}.",
 
-  "field.accounts_common.email.name": "Endereço de email",
+  "field.accounts_common.email.name": "Email address",
 
   // Message to display when the password confirmation does not match the password on a user account record.
-  "field.accounts_common.errorNotConfirmed": "A senha e a confirmação da senha devem ser idênticas.",
+  "field.accounts_common.errorNotConfirmed": "Password and confirm password must be identical.",
 
   // Message to display when the password is invalid on the user account form.
-  "field.accounts_common.password.errorInvalidPassword": "A senha deve ter entre 8 e 24 caracteres.",
+  "field.accounts_common.password.errorInvalidPassword": "Password must be between 8 and 24 characters.",
 
-  "field.accounts_common.password.name": "Senha",
+  "field.accounts_common.password.name": "Password",
 
-  "field.accounts_common.passwordConfirmation.name": "Confirmar senha",
+  "field.accounts_common.passwordConfirmation.name": "Confirm password",
 
-  "field.accounts_common.screenName.name": "Nome completo",
+  "field.accounts_common.screenName.name": "Full name",
 
   "field.accounts_common.status.name": "Status",
 
-  "field.accounts_common.userId.name": "ID de Usuário",
+  "field.accounts_common.userId.name": "User ID",
 
-  "field.acquisitions_common.accessionDateGroup.name": "Data de Aquisição",
+  "field.acquisitions_common.accessionDateGroup.name": "Accession date",
 
-  "field.acquisitions_common.acquisitionAuthorizer.name": "Autorizador",
+  "field.acquisitions_common.acquisitionAuthorizer.name": "Authorizer",
 
-  "field.acquisitions_common.acquisitionAuthorizerDate.fullName": "Data da Autorização",
+  "field.acquisitions_common.acquisitionAuthorizerDate.fullName": "Authorization date",
 
-  "field.acquisitions_common.acquisitionAuthorizerDate.name": "Data",
+  "field.acquisitions_common.acquisitionAuthorizerDate.name": "Date",
 
-  "field.acquisitions_common.acquisitionDateGroup.name": "Data de Aquisição",
+  "field.acquisitions_common.acquisitionDateGroup.name": "Acquisition date",
 
-  "field.acquisitions_common.acquisitionFunding.name": "Financiamento",
+  "field.acquisitions_common.acquisitionFunding.name": "Funding",
 
-  "field.acquisitions_common.acquisitionFundingCurrency.fullName": "Moeda do Financiamento",
+  "field.acquisitions_common.acquisitionFundingCurrency.fullName": "Funding currency",
 
-  "field.acquisitions_common.acquisitionFundingCurrency.name": "Moeda",
+  "field.acquisitions_common.acquisitionFundingCurrency.name": "Currency",
 
-  "field.acquisitions_common.acquisitionFundingSource.fullName": "Fonte do Financiamento",
+  "field.acquisitions_common.acquisitionFundingSource.fullName": "Funding source",
 
-  "field.acquisitions_common.acquisitionFundingSource.name": "Fonte",
+  "field.acquisitions_common.acquisitionFundingSource.name": "Source",
 
-  "field.acquisitions_common.acquisitionFundingSourceProvisos.fullName": "Provisões da Fonte de Financiamento",
+  "field.acquisitions_common.acquisitionFundingSourceProvisos.fullName": "Funding source provisos",
 
-  "field.acquisitions_common.acquisitionFundingSourceProvisos.name": "Provisões da Fonte",
+  "field.acquisitions_common.acquisitionFundingSourceProvisos.name": "Source provisos",
 
-  "field.acquisitions_common.acquisitionFundingValue.fullName": "Valor do Financiamento",
+  "field.acquisitions_common.acquisitionFundingValue.fullName": "Funding value",
 
-  "field.acquisitions_common.acquisitionFundingValue.name": "Valor",
+  "field.acquisitions_common.acquisitionFundingValue.name": "Value",
 
-  "field.acquisitions_common.acquisitionMethod.name": "Método de Aquisição",
+  "field.acquisitions_common.acquisitionMethod.name": "Acquisition method",
 
-  "field.acquisitions_common.acquisitionNote.name": "Nota",
+  "field.acquisitions_common.acquisitionNote.name": "Note",
 
-  "field.acquisitions_common.acquisitionProvisos.name": "Provisões",
+  "field.acquisitions_common.acquisitionProvisos.name": "Provisos",
 
-  "field.acquisitions_common.acquisitionReason.name": "Razão da Aquisição",
+  "field.acquisitions_common.acquisitionReason.name": "Acquisition reason",
 
-  "field.acquisitions_common.acquisitionReferenceNumber.inUse": "O número de referência {value} está em uso por outro registro.",
+  "field.acquisitions_common.acquisitionReferenceNumber.inUse": "The reference number {value} is in use by another record.",
 
-  "field.acquisitions_common.acquisitionReferenceNumber.name": "Número de Referência",
+  "field.acquisitions_common.acquisitionReferenceNumber.name": "Reference number",
 
-  "field.acquisitions_common.acquisitionSource.name": "Fonte de Aquisição",
+  "field.acquisitions_common.acquisitionSource.name": "Acquisition source",
 
-  "field.acquisitions_common.approvalDate.fullName": "Data do Status de Aprovação",
+  "field.acquisitions_common.approvalDate.fullName": "Approval status date",
 
-  "field.acquisitions_common.approvalDate.name": "Data",
+  "field.acquisitions_common.approvalDate.name": "Date",
 
-  "field.acquisitions_common.approvalGroup.approvalGroup.fullName": "Grupo de Aprovação",
+  "field.acquisitions_common.approvalGroup.approvalGroup.fullName": "Approval group",
 
-  "field.acquisitions_common.approvalGroup.approvalGroup.name": "Grupo",
+  "field.acquisitions_common.approvalGroup.approvalGroup.name": "Group",
 
-  "field.acquisitions_common.approvalGroup.name": "Aprovação",
+  "field.acquisitions_common.approvalGroup.name": "Approval",
 
-  "field.acquisitions_common.approvalIndividual.fullName": "Indivíduo Aprovador",
+  "field.acquisitions_common.approvalIndividual.fullName": "Approval individual",
 
-  "field.acquisitions_common.approvalIndividual.name": "Indivíduo",
+  "field.acquisitions_common.approvalIndividual.name": "Individual",
 
-  "field.acquisitions_common.approvalNote.fullName": "Nota de Aprovação",
+  "field.acquisitions_common.approvalNote.fullName": "Approval note",
 
-  "field.acquisitions_common.approvalNote.name": "Nota",
+  "field.acquisitions_common.approvalNote.name": "Note",
 
-  "field.acquisitions_common.approvalStatus.fullName": "Status de Aprovação",
+  "field.acquisitions_common.approvalStatus.fullName": "Approval status",
 
   "field.acquisitions_common.approvalStatus.name": "Status",
 
-  "field.acquisitions_common.creditLine.name": "Linha de Crédito",
+  "field.acquisitions_common.creditLine.name": "Credit line",
 
-  "field.acquisitions_common.fieldCollectionEventName.name": "Nome do Evento de Coleta de Campo",
+  "field.acquisitions_common.fieldCollectionEventName.name": "Field collection event name",
 
-  "field.acquisitions_common.groupPurchasePriceCurrency.fullName": "Moeda do Preço de Compra em Grupo",
+  "field.acquisitions_common.groupPurchasePriceCurrency.fullName": "Group purchase price currency",
 
-  "field.acquisitions_common.groupPurchasePriceCurrency.name": "Moeda",
+  "field.acquisitions_common.groupPurchasePriceCurrency.name": "Currency",
 
-  "field.acquisitions_common.groupPurchasePriceValue.fullName": "Valor do Preço de Compra em Grupo",
+  "field.acquisitions_common.groupPurchasePriceValue.fullName": "Group purchase price value",
 
-  "field.acquisitions_common.groupPurchasePriceValue.name": "Valor",
+  "field.acquisitions_common.groupPurchasePriceValue.name": "Value",
 
-  "field.acquisitions_common.objectOfferPriceCurrency.fullName": "Moeda do Preço de Oferta do Objeto",
+  "field.acquisitions_common.objectOfferPriceCurrency.fullName": "Object offer price currency",
 
-  "field.acquisitions_common.objectOfferPriceCurrency.name": "Moeda",
+  "field.acquisitions_common.objectOfferPriceCurrency.name": "Currency",
 
-  "field.acquisitions_common.objectOfferPriceValue.fullName": "Valor do Preço de Oferta do Objeto",
+  "field.acquisitions_common.objectOfferPriceValue.fullName": "Object offer price value",
 
-  "field.acquisitions_common.objectOfferPriceValue.name": "Valor",
+  "field.acquisitions_common.objectOfferPriceValue.name": "Value",
 
-    "field.acquisitions_common.objectPurchaseOfferPriceCurrency.fullName": "Moeda da Oferta de Compra do Objeto",
+  "field.acquisitions_common.objectPurchaseOfferPriceCurrency.fullName": "Object purchaser offer price currency",
 
-  "field.acquisitions_common.objectPurchaseOfferPriceCurrency.name": "Moeda",
+  "field.acquisitions_common.objectPurchaseOfferPriceCurrency.name": "Currency",
 
-  "field.acquisitions_common.objectPurchaseOfferPriceValue.fullName": "Valor da Oferta de Compra do Objeto",
+  "field.acquisitions_common.objectPurchaseOfferPriceValue.fullName": "Object purchaser offer price value",
 
-  "field.acquisitions_common.objectPurchaseOfferPriceValue.name": "Valor",
+  "field.acquisitions_common.objectPurchaseOfferPriceValue.name": "Value",
 
-  "field.acquisitions_common.objectPurchasePriceCurrency.fullName": "Moeda do Preço de Compra do Objeto",
+  "field.acquisitions_common.objectPurchasePriceCurrency.fullName": "Object purchase price currency",
 
-  "field.acquisitions_common.objectPurchasePriceCurrency.name": "Moeda",
+  "field.acquisitions_common.objectPurchasePriceCurrency.name": "Currency",
 
-  "field.acquisitions_common.objectPurchasePriceValue.fullName": "Valor do Preço de Compra do Objeto",
+  "field.acquisitions_common.objectPurchasePriceValue.fullName": "Object purchase price value",
 
-  "field.acquisitions_common.objectPurchasePriceValue.name": "Valor",
+  "field.acquisitions_common.objectPurchasePriceValue.name": "Value",
 
-  "field.acquisitions_common.originalObjectPurchasePriceCurrency.fullName": "Moeda do Preço de Compra Original do Objeto",
+  "field.acquisitions_common.originalObjectPurchasePriceCurrency.fullName": "Original object purchase price currency",
 
-  "field.acquisitions_common.originalObjectPurchasePriceCurrency.name": "Moeda",
+  "field.acquisitions_common.originalObjectPurchasePriceCurrency.name": "Currency",
 
-  "field.acquisitions_common.originalObjectPurchasePriceValue.fullName": "Valor do Preço de Compra Original do Objeto",
+  "field.acquisitions_common.originalObjectPurchasePriceValue.fullName": "Original object purchase price value",
 
-  "field.acquisitions_common.originalObjectPurchasePriceValue.name": "Valor",
+  "field.acquisitions_common.originalObjectPurchasePriceValue.name": "Value",
 
-  "field.acquisitions_common.owner.name": "Proprietário",
+  "field.acquisitions_common.owner.name": "Owner",
 
-  "field.acquisitions_common.transferOfTitleNumber.name": "Número de Transferência de Título",
+  "field.acquisitions_common.transferOfTitleNumber.name": "Transfer of title number",
 
-  "field.audit_common.changeReason.name": "Razão da Mudança",
+  "field.audit_common.changeReason.name": "Change reason",
 
-  "field.audit_common.csid.name": "Identificador de Registro de Auditoria",
+  "field.audit_common.csid.name": "Audit record identifier",
 
-  "field.audit_common.eventDate.name": "Atualizado em",
+  "field.audit_common.eventDate.name": "Updated at",
 
-  "field.audit_common.eventType.name": "Tipo de Evento de Auditoria",
+  "field.audit_common.eventType.name": "Audit event type",
 
-  "field.audit_common.fieldName.name": "Campo",
+  "field.audit_common.fieldName.name": "Field",
 
-  "field.audit_common.idNumber.fullName": "ID do Registro de Auditoria",
+  "field.audit_common.idNumber.fullName": "Audit record id",
 
-  "field.audit_common.idNumber.name": "ID",
+  "field.audit_common.idNumber.name": "Id",
 
-  "field.audit_common.key.name": "Chave",
+  "field.audit_common.key.name": "Key",
 
-  "field.audit_common.newValue.name": "Novo Valor",
+  "field.audit_common.newValue.name": "New value",
 
-  "field.audit_common.originalValue.name": "Valor Original",
+  "field.audit_common.originalValue.name": "Original value",
 
-  "field.audit_common.principal.name": "Atualizado por",
+  "field.audit_common.principal.name": "Updated by",
 
-  "field.audit_common.resourceCSID.name": "Identificador de Registro Auditado",
+  "field.audit_common.resourceCSID.name": "Audited record identifier",
 
-  "field.audit_common.resourceType.fullName": "Tipo de Registro Relacionado",
+  "field.audit_common.resourceType.fullName": "Related record type",
 
-  "field.audit_common.resourceType.name": "Tipo de Registro",
+  "field.audit_common.resourceType.name": "Record type",
 
-  "field.audit_common.saveMessage.name": "Mensagem de Salvamento",
+  "field.audit_common.saveMessage.name": "Save message",
 
-  "field.authrole.description.name": "Descrição",
+  "field.authrole.description.name": "Description",
 
-  "field.authrole.displayName.name": "Nome",
+  "field.authrole.displayName.name": "Name",
 
-  "field.authrole.permission.name": "Permissões",
+  "field.authrole.permission.name": "Permissions",
 
-  "field.batch.Merge Authority Items.targetCSID.name": "Registro Alvo",
+  "field.batch.Merge Authority Items.targetCSID.name": "Target record",
 
-  "field.batch.UpdateInventoryStatusBatchJob.inventoryStatus.name": "Novo Status do Inventário",
+  "field.batch.UpdateInventoryStatusBatchJob.inventoryStatus.name": "New inventory status",
 
-  "field.batch_common.className.name": "Classe Java",
+  "field.batch_common.className.name": "Java class",
 
-  "field.batch_common.createsNewFocus.name": "Navegar para o novo registro ao concluir",
+  "field.batch_common.createsNewFocus.name": "Navigate to new record when complete",
 
-  "field.batch_common.forDocType.name": "Para o Tipo de Registro",
+  "field.batch_common.forDocType.name": "For record type",
 
-  "field.batch_common.name.name": "Nome",
+  "field.batch_common.name.name": "Name",
 
-  "field.batch_common.notes.name": "Descrição",
+  "field.batch_common.notes.name": "Description",
 
-  "field.batch_common.supportsDocList.name": "Lista de Registros",
+  "field.batch_common.supportsDocList.name": "Record list",
 
-  "field.batch_common.supportsGroup.name": "Grupo",
+  "field.batch_common.supportsGroup.name": "Group",
 
-  "field.batch_common.supportsNoContext.name": "Todos os Registros",
+  "field.batch_common.supportsNoContext.name": "All records",
 
-  "field.batch_common.supportsSingleDoc.name": "Registro Único",
+  "field.batch_common.supportsSingleDoc.name": "Single record",
 
-  "field.blobs_common.length.name": "Tamanho",
+  "field.blobs_common.length.name": "Size",
 
   "field.blobs_common.length.value": "{value, number} bytes",
 
-  "field.blobs_common.mimeType.name": "Tipo",
+  "field.blobs_common.mimeType.name": "Type",
 
-  "field.blobs_common.name.name": "Nome",
+  "field.blobs_common.name.name": "Name",
 
-  "field.chronologies_common.primaryDateRangeStructuredDateGroup.name": "Intervalo de Datas Principal",
+  "field.chronologies_common.primaryDateRangeStructuredDateGroup.name": "Primary date range",
 
-  "field.chronologies_common.chronologyDescription.name": "Descrição da Cronologia",
+  "field.chronologies_common.chronologyDescription.name": "Chronology description",
 
-  "field.chronologies_common.chronologyNote.name": "Nota da Cronologia",
+  "field.chronologies_common.chronologyNote.name": "Chronology note",
 
-  "field.chronologies_common.spatialCoverage.name": "Cobertura Espacial",
+  "field.chronologies_common.spatialCoverage.name": "Spatial coverage",
 
-  "field.chronologies_common.chronologyTermGroup.name": "Termo",
+  "field.chronologies_common.chronologyTermGroup.name": "Term",
 
-  "field.chronologies_common.chronologyTermGroupList.required": "Pelo menos um nome de exibição do termo é necessário. Por favor, insira um valor.",
+  "field.chronologies_common.chronologyTermGroupList.required": "At least one term display name is required. Please enter a value.",
 
-  "field.chronologies_common.chronologyType.name": "Tipo de Cronologia",
+  "field.chronologies_common.chronologyType.name": "Chronology type",
 
-  "field.chronologies_common.historicalStatus.fullName": "Status Histórico do Termo",
+  "field.chronologies_common.historicalStatus.fullName": "Term historical status",
 
-  "field.chronologies_common.historicalStatus.name": "Status Histórico",
+  "field.chronologies_common.historicalStatus.name": "Historical status",
 
-  "field.chronologies_common.identifierCitation.fullName": "Citação do Identificador de Recurso",
+  "field.chronologies_common.identifierCitation.fullName": "Resource identifier citation",
 
-  "field.chronologies_common.identifierCitation.name": "Citação",
+  "field.chronologies_common.identifierCitation.name": "Citation",
 
-  "field.chronologies_common.identifierDate.fullName": "Data do Identificador de Recurso",
+  "field.chronologies_common.identifierDate.fullName": "Resource identifier date",
 
-  "field.chronologies_common.identifierDate.name": "Data",
+  "field.chronologies_common.identifierDate.name": "Date",
 
-  "field.chronologies_common.identifierGroup.name": "Identificador de Recurso",
+  "field.chronologies_common.identifierGroup.name": "Resource identifier",
 
-  "field.chronologies_common.identifierValue.fullName": "Valor do Identificador de Recurso",
+  "field.chronologies_common.identifierValue.fullName": "Resource identifier value",
 
-  "field.chronologies_common.identifierValue.name": "Valor",
+  "field.chronologies_common.identifierValue.name": "Value",
 
-  "field.chronologies_common.altDateCitation.fullName": "Citação da Data Alternativa",
+  "field.chronologies_common.altDateCitation.fullName": "Alternative date citation",
 
-  "field.chronologies_common.altDateCitation.name": "Citação",
+  "field.chronologies_common.altDateCitation.name": "Citation",
 
-  "field.chronologies_common.altDateGroup.name": "Data Alternativa",
+  "field.chronologies_common.altDateGroup.name": "Alternative date",
 
-  "field.chronologies_common.altDateNote.fullName": "Nota da Data Alternativa",
+  "field.chronologies_common.altDateNote.fullName": "Alternative date note",
 
-  "field.chronologies_common.altDateNote.name": "Nota",
+  "field.chronologies_common.altDateNote.name": "Note",
 
-  "field.chronologies_common.altDateSpatialCoverage.fullName": "Cobertura Espacial da Data Alternativa",
+  "field.chronologies_common.altDateSpatialCoverage.fullName": "Alternative date spatial coverage",
 
-  "field.chronologies_common.altDateSpatialCoverage.name": "Cobertura Espacial",
+  "field.chronologies_common.altDateSpatialCoverage.name": "Spatial coverage",
 
-  "field.chronologies_common.altDateRangeStructuredDateGroup.fullName": "Intervalo de Datas Alternativo",
+  "field.chronologies_common.altDateRangeStructuredDateGroup.fullName": "Alternative date range",
 
-  "field.chronologies_common.altDateRangeStructuredDateGroup.name": "Intervalo",
+  "field.chronologies_common.altDateRangeStructuredDateGroup.name": "Range",
 
-    "field.chronologies_common.termDisplayName.fullName": "Nome de Exibição do Termo",
+  "field.chronologies_common.termDisplayName.fullName": "Term display name",
 
-  "field.chronologies_common.termDisplayName.name": "Nome de Exibição",
+  "field.chronologies_common.termDisplayName.name": "Display name",
 
-  "field.chronologies_common.termFlag.fullName": "Indicador do Termo",
+  "field.chronologies_common.termFlag.fullName": "Term flag",
 
-  "field.chronologies_common.termFlag.name": "Indicador",
+  "field.chronologies_common.termFlag.name": "Flag",
 
-  "field.chronologies_common.termLanguage.fullName": "Idioma do Termo",
+  "field.chronologies_common.termLanguage.fullName": "Term language",
 
-  "field.chronologies_common.termLanguage.name": "Idioma",
+  "field.chronologies_common.termLanguage.name": "Language",
 
-  "field.chronologies_common.termName.fullName": "Nome do Termo",
+  "field.chronologies_common.termName.fullName": "Term name",
 
-  "field.chronologies_common.termName.name": "Nome",
+  "field.chronologies_common.termName.name": "Name",
 
-  "field.chronologies_common.termPrefForLang.fullName": "Termo Preferido para o Idioma",
+  "field.chronologies_common.termPrefForLang.fullName": "Term preferred for lang",
 
-  "field.chronologies_common.termPrefForLang.name": "Preferido para o Idioma",
+  "field.chronologies_common.termPrefForLang.name": "Preferred for lang",
 
-  "field.chronologies_common.termQualifier.fullName": "Qualificador do Termo",
+  "field.chronologies_common.termQualifier.fullName": "Term qualifier",
 
-  "field.chronologies_common.termQualifier.name": "Qualificador",
+  "field.chronologies_common.termQualifier.name": "Qualifier",
 
-  "field.chronologies_common.termSource.fullName": "Fonte do Nome do Termo",
+  "field.chronologies_common.termSource.fullName": "Term source name",
 
-  "field.chronologies_common.termSource.groupName": "Nome da Fonte",
+  "field.chronologies_common.termSource.groupName": "Source name",
 
-  "field.chronologies_common.termSource.name": "Fonte",
+  "field.chronologies_common.termSource.name": "Name",
 
-  "field.chronologies_common.termSourceDetail.fullName": "Detalhe da Fonte do Termo",
+  "field.chronologies_common.termSourceDetail.fullName": "Term source detail",
 
-  "field.chronologies_common.termSourceDetail.groupName": "Detalhe da Fonte",
+  "field.chronologies_common.termSourceDetail.groupName": "Source detail",
 
-  "field.chronologies_common.termSourceDetail.name": "Detalhe",
+  "field.chronologies_common.termSourceDetail.name": "Detail",
 
-  "field.chronologies_common.termSourceID.fullName": "ID da Fonte do Termo",
+  "field.chronologies_common.termSourceID.fullName": "Term source ID",
 
-  "field.chronologies_common.termSourceID.groupName": "ID da Fonte",
+  "field.chronologies_common.termSourceID.groupName": "Source ID",
 
   "field.chronologies_common.termSourceID.name": "ID",
 
-  "field.chronologies_common.termSourceNote.fullName": "Nota da Fonte do Termo",
+  "field.chronologies_common.termSourceNote.fullName": "Term source note",
 
-  "field.chronologies_common.termSourceNote.groupName": "Nota da Fonte",
+  "field.chronologies_common.termSourceNote.groupName": "Source note",
 
-  "field.chronologies_common.termSourceNote.name": "Nota",
+  "field.chronologies_common.termSourceNote.name": "Note",
 
-  "field.chronologies_common.termStatus.fullName": "Status do Termo",
+  "field.chronologies_common.termStatus.fullName": "Term status",
 
   "field.chronologies_common.termStatus.name": "Status",
 
-  "field.chronologies_common.termType.fullName": "Tipo do Termo",
+  "field.chronologies_common.termType.fullName": "Term type",
 
-  "field.chronologies_common.termType.name": "Tipo",
+  "field.chronologies_common.termType.name": "Type",
 
-  "field.citations_common.agent.fullName": "Nome do Agente",
+  "field.citations_common.agent.fullName": "Agent name",
 
-  "field.citations_common.agent.name": "Nome",
+  "field.citations_common.agent.name": "Name",
 
-  "field.citations_common.captureDate.fullName": "Data de Captura do Identificador de Recurso",
+  "field.citations_common.captureDate.fullName": "Resource identifier capture date",
 
-  "field.citations_common.captureDate.name": "Data de Captura",
+  "field.citations_common.captureDate.name": "Capture date",
 
-  "field.citations_common.citationAgentInfoGroup.name": "Agente",
+  "field.citations_common.citationAgentInfoGroup.name": "Agent",
 
-  "field.citations_common.citationNote.name": "Nota",
+  "field.citations_common.citationNote.name": "Note",
 
-  "field.citations_common.citationPublicationInfoGroup.name": "Publicação",
+  "field.citations_common.citationPublicationInfoGroup.name": "Publication",
 
-  "field.citations_common.citationRecordType.name": "Tipo de Citação",
+  "field.citations_common.citationRecordType.name": "Citation type",
 
-  "field.citations_common.citationRelatedTermsGroup.name": "Termo Relacionado",
+  "field.citations_common.citationRelatedTermsGroup.name": "Related term",
 
-  "field.citations_common.citationResourceIdentGroup.name": "Identificador de Recurso",
+  "field.citations_common.citationResourceIdentGroup.name": "Resource identifier",
 
-  "field.citations_common.citationTermGroup.name": "Termo",
+  "field.citations_common.citationTermGroup.name": "Term",
 
-  "field.citations_common.citationTermGroupList.required": "Pelo menos um nome de exibição do termo é necessário. Por favor, insira um valor.",
+  "field.citations_common.citationTermGroupList.required": "At least one term display name is required. Please enter a value.",
 
-  "field.citations_common.edition.fullName": "Edição da Publicação",
+  "field.citations_common.edition.fullName": "Publication edition",
 
-  "field.citations_common.edition.name": "Edição",
+  "field.citations_common.edition.name": "Edition",
 
-  "field.citations_common.note.fullName": "Nota do Agente",
+  "field.citations_common.note.fullName": "Agent note",
 
-  "field.citations_common.note.name": "Nota",
+  "field.citations_common.note.name": "Note",
 
-  "field.citations_common.pages.fullName": "Página(s) da Publicação",
+  "field.citations_common.pages.fullName": "Publication page(s)",
 
-  "field.citations_common.pages.name": "Página(s)",
+  "field.citations_common.pages.name": "Page(s)",
 
-  "field.citations_common.publicationDate.fullName": "Data de Publicação",
+  "field.citations_common.publicationDate.fullName": "Publication date",
 
-  "field.citations_common.publicationDate.name": "Data",
+  "field.citations_common.publicationDate.name": "Date",
 
-  "field.citations_common.publicationPlace.fullName": "Local de Publicação",
+  "field.citations_common.publicationPlace.fullName": "Publication place",
 
-  "field.citations_common.publicationPlace.name": "Local",
+  "field.citations_common.publicationPlace.name": "Place",
 
-  "field.citations_common.publisher.name": "Editora",
+  "field.citations_common.publisher.name": "Publisher",
 
-  "field.citations_common.relatedTerm.fullName": "Termo Relacionado",
+  "field.citations_common.relatedTerm.fullName": "Related term",
 
-  "field.citations_common.relatedTerm.name": "Termo",
+  "field.citations_common.relatedTerm.name": "Term",
 
-  "field.citations_common.relationType.fullName": "Tipo de Termo Relacionado",
+  "field.citations_common.relationType.fullName": "Related term type",
 
-  "field.citations_common.relationType.name": "Tipo",
+  "field.citations_common.relationType.name": "Type",
 
-  "field.citations_common.resourceIdent.fullName": "Identificador de Recurso",
+  "field.citations_common.resourceIdent.fullName": "Resource identifier",
 
-  "field.citations_common.resourceIdent.name": "Identificador",
+  "field.citations_common.resourceIdent.name": "Identifier",
 
-  "field.citations_common.role.fullName": "Papel do Agente",
+  "field.citations_common.role.fullName": "Agent role",
 
-  "field.citations_common.role.name": "Papel",
+  "field.citations_common.role.name": "Role",
 
-  "field.citations_common.termDisplayName.fullName": "Nome de Exibição do Termo",
+  "field.citations_common.termDisplayName.fullName": "Term display name",
 
-  "field.citations_common.termDisplayName.name": "Nome de Exibição",
+  "field.citations_common.termDisplayName.name": "Display name",
 
-  "field.citations_common.termFlag.fullName": "Indicador do Termo",
+  "field.citations_common.termFlag.fullName": "Term flag",
 
-  "field.citations_common.termFlag.name": "Indicador",
+  "field.citations_common.termFlag.name": "Flag",
 
-  "field.citations_common.termFullCitation.fullName": "Citação Completa do Termo",
+  "field.citations_common.termFullCitation.fullName": "Term full citation",
 
-  "field.citations_common.termFullCitation.name": "Citação Completa",
+  "field.citations_common.termFullCitation.name": "Full citation",
 
-  "field.citations_common.termIssue.fullName": "Edição do Termo",
+  "field.citations_common.termIssue.fullName": "Term issue",
 
-  "field.citations_common.termIssue.name": "Edição",
+  "field.citations_common.termIssue.name": "Issue",
 
-  "field.citations_common.termLanguage.fullName": "Idioma do Termo",
+  "field.citations_common.termLanguage.fullName": "Term language",
 
-  "field.citations_common.termLanguage.name": "Idioma",
+  "field.citations_common.termLanguage.name": "Language",
 
-  "field.citations_common.termName.fullName": "Nome do Termo",
+  "field.citations_common.termName.fullName": "Term name",
 
-  "field.citations_common.termName.name": "Nome",
+  "field.citations_common.termName.name": "Name",
 
-  "field.citations_common.termPrefForLang.fullName": "Termo Preferido para o Idioma",
+  "field.citations_common.termPrefForLang.fullName": "Term preferred for lang",
 
-  "field.citations_common.termPrefForLang.name": "Preferido para o Idioma",
+  "field.citations_common.termPrefForLang.name": "Preferred for lang",
 
-  "field.citations_common.termQualifier.fullName": "Qualificador do Termo",
+  "field.citations_common.termQualifier.fullName": "Term qualifier",
 
-  "field.citations_common.termQualifier.name": "Qualificador",
+  "field.citations_common.termQualifier.name": "Qualifier",
 
-  "field.citations_common.termSectionTitle.fullName": "Título da Seção do Termo",
+  "field.citations_common.termSectionTitle.fullName": "Term section title",
 
-  "field.citations_common.termSectionTitle.name": "Título da Seção",
+  "field.citations_common.termSectionTitle.name": "Section title",
 
-    "field.citations_common.termSource.fullName": "Nome da Fonte do Termo",
+  "field.citations_common.termSource.fullName": "Term source name",
 
-  "field.citations_common.termSource.groupName": "Nome da Fonte",
+  "field.citations_common.termSource.groupName": "Source name",
 
-  "field.citations_common.termSource.name": "Fonte",
+  "field.citations_common.termSource.name": "Name",
 
-  "field.citations_common.termSourceDetail.fullName": "Detalhe da Fonte do Termo",
+  "field.citations_common.termSourceDetail.fullName": "Term source detail",
 
-  "field.citations_common.termSourceDetail.groupName": "Detalhe da Fonte",
+  "field.citations_common.termSourceDetail.groupName": "Source detail",
 
-  "field.citations_common.termSourceDetail.name": "Detalhe",
+  "field.citations_common.termSourceDetail.name": "Detail",
 
-  "field.citations_common.termSourceID.fullName": "ID da Fonte do Termo",
+  "field.citations_common.termSourceID.fullName": "Term source ID",
 
-  "field.citations_common.termSourceID.groupName": "ID da Fonte",
+  "field.citations_common.termSourceID.groupName": "Source ID",
 
   "field.citations_common.termSourceID.name": "ID",
 
-  "field.citations_common.termSourceNote.fullName": "Nota da Fonte do Termo",
+  "field.citations_common.termSourceNote.fullName": "Term source note",
 
-  "field.citations_common.termSourceNote.groupName": "Nota da Fonte",
+  "field.citations_common.termSourceNote.groupName": "Source note",
 
-  "field.citations_common.termSourceNote.name": "Nota",
+  "field.citations_common.termSourceNote.name": "Note",
 
-  "field.citations_common.termStatus.fullName": "Status do Termo",
+  "field.citations_common.termStatus.fullName": "Term status",
 
   "field.citations_common.termStatus.name": "Status",
 
-  "field.citations_common.termSubTitle.fullName": "Subtítulo do Termo",
+  "field.citations_common.termSubTitle.fullName": "Term subtitle",
 
-  "field.citations_common.termSubTitle.name": "Subtítulo",
+  "field.citations_common.termSubTitle.name": "Subtitle",
 
-  "field.citations_common.termTitle.fullName": "Título do Termo",
+  "field.citations_common.termTitle.fullName": "Term title",
 
-  "field.citations_common.termTitle.name": "Título",
+  "field.citations_common.termTitle.name": "Title",
 
-  "field.citations_common.termType.fullName": "Tipo do Termo",
+  "field.citations_common.termType.fullName": "Term type",
 
-  "field.citations_common.termType.name": "Tipo",
+  "field.citations_common.termType.name": "Type",
 
-  "field.citations_common.termVolume.fullName": "Volume do Termo",
+  "field.citations_common.termVolume.fullName": "Term volume",
 
   "field.citations_common.termVolume.name": "Volume",
 
-  "field.citations_common.type.fullName": "Tipo de Identificador de Recurso",
+  "field.citations_common.type.fullName": "Resource identifier type",
 
-  "field.citations_common.type.name": "Tipo",
+  "field.citations_common.type.name": "Type",
 
-  "field.collectionobjects_annotation.annotationAuthor.fullName": "Autor da Anotação",
+  "field.collectionobjects_annotation.annotationAuthor.fullName": "Annotation author",
 
-  "field.collectionobjects_annotation.annotationAuthor.name": "Autor",
+  "field.collectionobjects_annotation.annotationAuthor.name": "Author",
 
-  "field.collectionobjects_annotation.annotationDate.fullName": "Data da Anotação",
+  "field.collectionobjects_annotation.annotationDate.fullName": "Annotation date",
 
-  "field.collectionobjects_annotation.annotationDate.name": "Data",
+  "field.collectionobjects_annotation.annotationDate.name": "Date",
 
-  "field.collectionobjects_annotation.annotationGroup.name": "Anotação",
+  "field.collectionobjects_annotation.annotationGroup.name": "Annotation",
 
-  "field.collectionobjects_annotation.annotationNote.fullName": "Nota da Anotação",
+  "field.collectionobjects_annotation.annotationNote.fullName": "Annotation note",
 
-  "field.collectionobjects_annotation.annotationNote.name": "Nota",
+  "field.collectionobjects_annotation.annotationNote.name": "Note",
 
-  "field.collectionobjects_annotation.annotationType.fullName": "Tipo da Anotação",
+  "field.collectionobjects_annotation.annotationType.fullName": "Annotation type",
 
-  "field.collectionobjects_annotation.annotationType.name": "Tipo",
+  "field.collectionobjects_annotation.annotationType.name": "Type",
 
-  "field.collectionobjects_common.age.fullName": "Valor da Idade",
+  "field.collectionobjects_common.age.fullName": "Age value",
 
-  "field.collectionobjects_common.age.name": "Valor",
+  "field.collectionobjects_common.age.name": "Value",
 
-  // igor 02/12/2024, começar a partir da chave abaixo
-  "field.collectionobjects_common.ageQualifier.fullName": "Qualificador de Idade",
+  "field.collectionobjects_common.ageQualifier.fullName": "Age qualifier",
 
-  "field.collectionobjects_common.ageQualifier.name": "Qualificador",
+  "field.collectionobjects_common.ageQualifier.name": "Qualifier",
 
-  "field.collectionobjects_common.ageUnit.fullName": "Unidade de Idade",
+  "field.collectionobjects_common.ageUnit.fullName": "Age unit",
 
-  "field.collectionobjects_common.ageUnit.name": "Unidade",
+  "field.collectionobjects_common.ageUnit.name": "Unit",
 
-  "field.collectionobjects_common.agreementReceived.fullName": "Direito no Acordo Recebido",
+  "field.collectionobjects_common.agreementReceived.fullName": "Right in agreement received",
 
-  "field.collectionobjects_common.agreementReceived.name": "Acordo Recebido",
+  "field.collectionobjects_common.agreementReceived.name": "Agreement received",
 
-  "field.collectionobjects_common.agreementSent.fullName": "Direito no Acordo Enviado",
+  "field.collectionobjects_common.agreementSent.fullName": "Right in agreement sent",
 
-  "field.collectionobjects_common.agreementSent.name": "Acordo Enviado",
+  "field.collectionobjects_common.agreementSent.name": "Agreement sent",
 
-  "field.collectionobjects_common.agreementSigned.fullName": "Direito no Acordo Assinado",
+  "field.collectionobjects_common.agreementSigned.fullName": "Right in agreement signed",
 
-  "field.collectionobjects_common.agreementSigned.name": "Acordo Assinado",
+  "field.collectionobjects_common.agreementSigned.name": "Agreement signed",
 
-  "field.collectionobjects_common.apiUrl.name": "URL da API",
+  "field.collectionobjects_common.apiUrl.name": "API URL",
 
-  "field.collectionobjects_common.applicationInteractionGroup.name": "Aplicativo de Interação",
+  "field.collectionobjects_common.applicationInteractionGroup.name": "Interacting application",
 
-  "field.collectionobjects_common.applicationInteractionRequired.fullName": "Aplicativo de Interação Necessário",
+  "field.collectionobjects_common.applicationInteractionRequired.fullName": "Interacting application required",
 
-  "field.collectionobjects_common.applicationInteractionRequired.name": "Necessário",
+  "field.collectionobjects_common.applicationInteractionRequired.name": "Required",
 
-  "field.collectionobjects_common.applicationRequired.fullName": "Nome do Aplicativo de Interação",
+  "field.collectionobjects_common.applicationRequired.fullName": "Interacting application name",
 
-  "field.collectionobjects_common.applicationRequired.name": "Nome",
+  "field.collectionobjects_common.applicationRequired.name": "Name",
 
-  "field.collectionobjects_common.applicationRequiredFor.fullName": "Aplicativo Necessário para Interação",
+  "field.collectionobjects_common.applicationRequiredFor.fullName": "Interacting application required for",
 
-  "field.collectionobjects_common.applicationRequiredFor.name": "Para",
+  "field.collectionobjects_common.applicationRequiredFor.name": "For",
 
-  "field.collectionobjects_common.aspectRatio.fullName": "Proporção da Imagem Largura:Altura",
+  "field.collectionobjects_common.aspectRatio.fullName": "Aspect ratio width:height",
 
-  "field.collectionobjects_common.aspectRatio.name": "Largura:Altura",
+  "field.collectionobjects_common.aspectRatio.name": "Width:height",
 
-  "field.collectionobjects_common.aspectRatioGroup.name": "Proporção da Imagem",
+  "field.collectionobjects_common.aspectRatioGroup.name": "Aspect ratio",
 
-  "field.collectionobjects_common.aspectRatioType.fullName": "Tipo de Proporção da Imagem",
+  "field.collectionobjects_common.aspectRatioType.fullName": "Aspect ratio type",
 
-  "field.collectionobjects_common.aspectRatioType.name": "Tipo",
+  "field.collectionobjects_common.aspectRatioType.name": "Type",
 
-  "field.collectionobjects_common.assignedSignificance.fullName": "Nível de Significância do Objeto",
+  "field.collectionobjects_common.assignedSignificance.fullName": "Object significance level",
 
-  "field.collectionobjects_common.assignedSignificance.name": "Nível",
+  "field.collectionobjects_common.assignedSignificance.name": "Level",
 
-  "field.collectionobjects_common.assocActivity.fullName": "Atividade Associada",
+  "field.collectionobjects_common.assocActivity.fullName": "Associated activity",
 
-  "field.collectionobjects_common.assocActivity.name": "Atividade",
+  "field.collectionobjects_common.assocActivity.name": "Activity",
 
-  "field.collectionobjects_common.assocActivityGroup.name": "Atividade Associada",
+  "field.collectionobjects_common.assocActivityGroup.name": "Associated activity",
 
-  "field.collectionobjects_common.assocActivityNote.fullName": "Nota da Atividade Associada",
+  "field.collectionobjects_common.assocActivityNote.fullName": "Associated activity note",
 
-  "field.collectionobjects_common.assocActivityNote.name": "Nota",
+  "field.collectionobjects_common.assocActivityNote.name": "Note",
 
-  "field.collectionobjects_common.assocActivityType.fullName": "Tipo de Atividade Associada",
+  "field.collectionobjects_common.assocActivityType.fullName": "Associated activity type",
 
-  "field.collectionobjects_common.assocActivityType.name": "Tipo",
+  "field.collectionobjects_common.assocActivityType.name": "Type",
 
-  "field.collectionobjects_common.assocConcept.fullName": "Conceito Associado",
+  "field.collectionobjects_common.assocConcept.fullName": "Associated concept",
 
-  "field.collectionobjects_common.assocConcept.name": "Conceito",
+  "field.collectionobjects_common.assocConcept.name": "Concept",
 
-  "field.collectionobjects_common.assocConceptGroup.name": "Conceito Associado",
+  "field.collectionobjects_common.assocConceptGroup.name": "Associated concept",
 
-  "field.collectionobjects_common.assocConceptNote.fullName": "Nota do Conceito Associado",
+  "field.collectionobjects_common.assocConceptNote.fullName": "Associated concept note",
 
-  "field.collectionobjects_common.assocConceptNote.name": "Nota",
+  "field.collectionobjects_common.assocConceptNote.name": "Note",
 
-  "field.collectionobjects_common.assocConceptType.fullName": "Tipo de Conceito Associado",
+  "field.collectionobjects_common.assocConceptType.fullName": "Associated concept type",
 
-  "field.collectionobjects_common.assocConceptType.name": "Tipo",
+  "field.collectionobjects_common.assocConceptType.name": "Type",
 
-    "field.collectionobjects_common.assocCulturalContext.fullName": "Afinidade Cultural Associada",
+  "field.collectionobjects_common.assocCulturalContext.fullName": "Associated cultural affinity",
 
-  "field.collectionobjects_common.assocCulturalContext.name": "Afinidade Cultural",
+  "field.collectionobjects_common.assocCulturalContext.name": "Cultural affinity",
 
-  "field.collectionobjects_common.assocCulturalContextGroup.name": "Afinidade Cultural Associada",
+  "field.collectionobjects_common.assocCulturalContextGroup.name": "Associated cultural affinity",
 
-  "field.collectionobjects_common.assocCulturalContextNote.fullName": "Nota da Afinidade Cultural Associada",
+  "field.collectionobjects_common.assocCulturalContextNote.fullName": "Associated cultural affinity note",
 
-  "field.collectionobjects_common.assocCulturalContextNote.name": "Nota",
+  "field.collectionobjects_common.assocCulturalContextNote.name": "Note",
 
-  "field.collectionobjects_common.assocCulturalContextType.fullName": "Tipo de Afinidade Cultural Associada",
+  "field.collectionobjects_common.assocCulturalContextType.fullName": "Associated cultural affinity type",
 
-  "field.collectionobjects_common.assocCulturalContextType.name": "Tipo",
+  "field.collectionobjects_common.assocCulturalContextType.name": "Type",
 
-  "field.collectionobjects_common.assocDateGroup.name": "Data Associada",
+  "field.collectionobjects_common.assocDateGroup.name": "Associated date",
 
-  "field.collectionobjects_common.assocDateNote.fullName": "Nota da Data Associada",
+  "field.collectionobjects_common.assocDateNote.fullName": "Associated date note",
 
-  "field.collectionobjects_common.assocDateNote.name": "Nota",
+  "field.collectionobjects_common.assocDateNote.name": "Note",
 
-  "field.collectionobjects_common.assocDateType.fullName": "Tipo de Data Associada",
+  "field.collectionobjects_common.assocDateType.fullName": "Associated date type",
 
-  "field.collectionobjects_common.assocDateType.name": "Tipo",
+  "field.collectionobjects_common.assocDateType.name": "Type",
 
-  "field.collectionobjects_common.assocEventName.fullName": "Evento Associado",
+  "field.collectionobjects_common.assocEventName.fullName": "Associated event",
 
-  "field.collectionobjects_common.assocEventName.name": "Evento",
+  "field.collectionobjects_common.assocEventName.name": "Event",
 
-  "field.collectionobjects_common.assocEventNameType.fullName": "Tipo de Evento Associado",
+  "field.collectionobjects_common.assocEventNameType.fullName": "Associated event type",
 
-  "field.collectionobjects_common.assocEventNameType.name": "Tipo",
+  "field.collectionobjects_common.assocEventNameType.name": "Type",
 
-  "field.collectionobjects_common.assocEventNote.name": "Nota do Evento Associado",
+  "field.collectionobjects_common.assocEventNote.name": "Associated event note",
 
-  "field.collectionobjects_common.assocEventOrganization.name": "Organização do Evento Associado",
+  "field.collectionobjects_common.assocEventOrganization.name": "Associated event organization",
 
-  "field.collectionobjects_common.assocEventPeople.name": "Pessoas do Evento Associado",
+  "field.collectionobjects_common.assocEventPeople.name": "Associated event people",
 
-  "field.collectionobjects_common.assocEventPerson.name": "Pessoa do Evento Associado",
+  "field.collectionobjects_common.assocEventPerson.name": "Associated event person",
 
-  "field.collectionobjects_common.assocEventPlace.name": "Local do Evento Associado",
+  "field.collectionobjects_common.assocEventPlace.name": "Associated event place",
 
-  "field.collectionobjects_common.assocObject.fullName": "Objeto Associado",
+  "field.collectionobjects_common.assocObject.fullName": "Associated object",
 
-  "field.collectionobjects_common.assocObject.name": "Objeto",
+  "field.collectionobjects_common.assocObject.name": "Object",
 
-  "field.collectionobjects_common.assocObjectGroup.name": "Objeto Associado",
+  "field.collectionobjects_common.assocObjectGroup.name": "Associated object",
 
-  "field.collectionobjects_common.assocObjectNote.fullName": "Nota do Objeto Associado",
+  "field.collectionobjects_common.assocObjectNote.fullName": "Associated object note",
 
-  "field.collectionobjects_common.assocObjectNote.name": "Nota",
+  "field.collectionobjects_common.assocObjectNote.name": "Note",
 
-  "field.collectionobjects_common.assocObjectType.fullName": "Tipo de Objeto Associado",
+  "field.collectionobjects_common.assocObjectType.fullName": "Associated object type",
 
-  "field.collectionobjects_common.assocObjectType.name": "Tipo",
+  "field.collectionobjects_common.assocObjectType.name": "Type",
 
-  "field.collectionobjects_common.assocOrganization.fullName": "Organização Associada",
+  "field.collectionobjects_common.assocOrganization.fullName": "Associated organization",
 
-  "field.collectionobjects_common.assocOrganization.name": "Organização",
+  "field.collectionobjects_common.assocOrganization.name": "Organization",
 
-  "field.collectionobjects_common.assocOrganizationGroup.name": "Organização Associada",
+  "field.collectionobjects_common.assocOrganizationGroup.name": "Associated organization",
 
-  "field.collectionobjects_common.assocOrganizationNote.fullName": "Nota da Organização Associada",
+  "field.collectionobjects_common.assocOrganizationNote.fullName": "Associated organization note",
 
-  "field.collectionobjects_common.assocOrganizationNote.name": "Nota",
+  "field.collectionobjects_common.assocOrganizationNote.name": "Note",
 
-  "field.collectionobjects_common.assocOrganizationType.fullName": "Tipo de Organização Associada",
+  "field.collectionobjects_common.assocOrganizationType.fullName": "Associated organization type",
 
-  "field.collectionobjects_common.assocOrganizationType.name": "Tipo",
+  "field.collectionobjects_common.assocOrganizationType.name": "Type",
 
-  "field.collectionobjects_common.assocPeople.fullName": "Pessoas Associadas",
+  "field.collectionobjects_common.assocPeople.fullName": "Associated people",
 
-  "field.collectionobjects_common.assocPeople.name": "Pessoas",
+  "field.collectionobjects_common.assocPeople.name": "People",
 
-  "field.collectionobjects_common.assocPeopleGroup.name": "Pessoas Associadas",
+  "field.collectionobjects_common.assocPeopleGroup.name": "Associated people",
 
-  "field.collectionobjects_common.assocPeopleNote.fullName": "Nota das Pessoas Associadas",
+  "field.collectionobjects_common.assocPeopleNote.fullName": "Associated people note",
 
-  "field.collectionobjects_common.assocPeopleNote.name": "Nota",
+  "field.collectionobjects_common.assocPeopleNote.name": "Note",
 
-  "field.collectionobjects_common.assocPeopleType.fullName": "Tipo de Pessoas Associadas",
+  "field.collectionobjects_common.assocPeopleType.fullName": "Associated people type",
 
-  "field.collectionobjects_common.assocPeopleType.name": "Tipo",
+  "field.collectionobjects_common.assocPeopleType.name": "Type",
 
-  "field.collectionobjects_common.assocPerson.fullName": "Pessoa Associada",
+  "field.collectionobjects_common.assocPerson.fullName": "Associated person",
 
-  "field.collectionobjects_common.assocPerson.name": "Pessoa",
+  "field.collectionobjects_common.assocPerson.name": "Person",
 
-  "field.collectionobjects_common.assocPersonGroup.name": "Pessoa Associada",
+  "field.collectionobjects_common.assocPersonGroup.name": "Associated person",
 
-  "field.collectionobjects_common.assocPersonNote.fullName": "Nota da Pessoa Associada",
+  "field.collectionobjects_common.assocPersonNote.fullName": "Associated person note",
 
-  "field.collectionobjects_common.assocPersonNote.name": "Nota",
+  "field.collectionobjects_common.assocPersonNote.name": "Note",
 
-  "field.collectionobjects_common.assocPersonType.fullName": "Tipo de Pessoa Associada",
+  "field.collectionobjects_common.assocPersonType.fullName": "Associated person type",
 
-  "field.collectionobjects_common.assocPersonType.name": "Tipo",
+  "field.collectionobjects_common.assocPersonType.name": "Type",
 
-  "field.collectionobjects_common.assocPlace.fullName": "Local Associado",
+  "field.collectionobjects_common.assocPlace.fullName": "Associated place",
 
-  "field.collectionobjects_common.assocPlace.name": "Local",
+  "field.collectionobjects_common.assocPlace.name": "Place",
 
-  "field.collectionobjects_common.assocPlaceGroup.name": "Local Associado",
+  "field.collectionobjects_common.assocPlaceGroup.name": "Associated place",
 
-  "field.collectionobjects_common.assocPlaceNote.fullName": "Nota do Local Associado",
+  "field.collectionobjects_common.assocPlaceNote.fullName": "Associated place note",
 
-  "field.collectionobjects_common.assocPlaceNote.name": "Nota",
+  "field.collectionobjects_common.assocPlaceNote.name": "Note",
 
-  "field.collectionobjects_common.assocPlaceType.fullName": "Tipo de Local Associado",
+  "field.collectionobjects_common.assocPlaceType.fullName": "Associated place type",
 
-  "field.collectionobjects_common.assocPlaceType.name": "Tipo",
+  "field.collectionobjects_common.assocPlaceType.name": "Type",
 
-  "field.collectionobjects_common.assocStructuredDateGroup.fullName": "Valor da Data Associada",
+  "field.collectionobjects_common.assocStructuredDateGroup.fullName": "Associated date value",
 
-  "field.collectionobjects_common.assocStructuredDateGroup.groupName": "Valor",
+  "field.collectionobjects_common.assocStructuredDateGroup.groupName": "Value",
 
-  "field.collectionobjects_common.assocStructuredDateGroup.name": "Valor",
+  "field.collectionobjects_common.assocStructuredDateGroup.name": "Value",
 
-  "field.collectionobjects_common.audioPreferences.name": "Preferência de Áudio",
+  "field.collectionobjects_common.audioPreferences.name": "Audio preference",
 
-  "field.collectionobjects_common.audioType.name": "Tipo de Áudio",
+  "field.collectionobjects_common.audioType.name": "Audio type",
 
-  "field.collectionobjects_common.avChannelGroup.name": "Canal AV",
+  "field.collectionobjects_common.avChannelGroup.name": "AV channel",
 
-  "field.collectionobjects_common.avFormatGroup.name": "Formato",
+  "field.collectionobjects_common.avFormatGroup.name": "Format",
 
-  "field.collectionobjects_common.avSpecificationNote.name": "Nota de Especificação de Áudio ou Vídeo",
+  "field.collectionobjects_common.avSpecificationNote.name": "Audio or video specification note",
 
-  "field.collectionobjects_common.avTechnicalAttribute.fullName": "Atributo Técnico AV",
+  "field.collectionobjects_common.avTechnicalAttribute.fullName": "AV technical attribute",
 
-  "field.collectionobjects_common.avTechnicalAttribute.name": "Nome",
+  "field.collectionobjects_common.avTechnicalAttribute.name": "Name",
 
-  "field.collectionobjects_common.avTechnicalAttributeGroup.name": "Atributo Técnico AV",
+  "field.collectionobjects_common.avTechnicalAttributeGroup.name": "AV technical attribute",
 
-  "field.collectionobjects_common.avTechnicalAttributeHighValue.fullName": "Valor Superior do Atributo Técnico AV",
+  "field.collectionobjects_common.avTechnicalAttributeHighValue.fullName": "AV technical attribute high value",
 
-  "field.collectionobjects_common.avTechnicalAttributeHighValue.name": "Valor Superior",
+  "field.collectionobjects_common.avTechnicalAttributeHighValue.name": "High value",
 
-  "field.collectionobjects_common.avTechnicalAttributeLowValue.fullName": "Valor Inferior/Único do Atributo Técnico AV",
+  "field.collectionobjects_common.avTechnicalAttributeLowValue.fullName": "AV technical attribute low/single value",
 
-  "field.collectionobjects_common.avTechnicalAttributeLowValue.name": "Valor Inferior/Único",
+  "field.collectionobjects_common.avTechnicalAttributeLowValue.name": "Low/single value",
 
-  "field.collectionobjects_common.avTechnicalAttributeUnit.fullName": "Unidade do Atributo Técnico AV",
+  "field.collectionobjects_common.avTechnicalAttributeUnit.fullName": "AV technical attribute unit",
 
-  "field.collectionobjects_common.avTechnicalAttributeUnit.name": "Unidade",
-
-  
+  "field.collectionobjects_common.avTechnicalAttributeUnit.name": "Unit",
 
   "field.collectionobjects_common.briefDescription.name": "Brief description",
 
